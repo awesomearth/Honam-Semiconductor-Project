@@ -1,0 +1,7459 @@
+[
+ {
+  "id": "F1",
+  "title": "Water supply",
+  "summary": "The government states the four fabs need 650 000 t of industrial water per day at full build-out, and the climate-energy-environment minister told the October 2026 National Assembly audit this is deliverable (S11). The August 2026 revision of the supply plan uses three dams and treated wastewater: stage 1 (Dongbok Dam (동복댐) and Juam Dam (주암댐), 350 000 t/d) and stage 2 (Naju Dam (나주댐) plus 200 000 t/d of reclaimed water from the Gwangju No. 1 sewage treatment plant, about 3 km from the site), to be completed by 2030 (S8). Reclaimed water is earmarked for cooling; ultrapure water (UPW) for wafer cleaning is to come from dam and river water, because sewage-derived feed is hard to bring to the ≤1 ppb total-organic-carbon level UPW requires (S8). Contrary to the starting lead that water would come from the Yeongsan River (영산강) system, a National Assembly Research Service (NARS) review found that 84.6 % of the originally planned dam water (550 000 t/d) would come from the Seomjin River (섬진강) basin, which recorded severe drought storage levels in 2022 and 2026 (S9). The city of Gwangju separately cites an interim 150 000 t/d by end-2028 and a long-run 1.06 Mt/d, which differs from the national figure (S7).",
+  "figures": [
+   {
+    "label": "Industrial water required at full build-out (government)",
+    "value": "650 000",
+    "unit": "t/d",
+    "source": "S11"
+   },
+   {
+    "label": "Stage 1 supply: Dongbok Dam 300 000 + Juam Dam 50 000",
+    "value": "350 000",
+    "unit": "t/d",
+    "source": "S8"
+   },
+   {
+    "label": "Stage 2 supply: Naju Dam 100 000 + reclaimed wastewater 200 000",
+    "value": "300 000",
+    "unit": "t/d",
+    "source": "S8"
+   },
+   {
+    "label": "Reclaimed-water allocation (cooling use; Gwangju No. 1 sewage plant)",
+    "value": "200 000",
+    "unit": "t/d",
+    "source": "S8"
+   },
+   {
+    "label": "Planned industrial-water production capacity at No. 1 sewage plant",
+    "value": "≈300 000",
+    "unit": "t/d",
+    "source": "S8"
+   },
+   {
+    "label": "Distance, No. 1 sewage plant to site",
+    "value": "≈3",
+    "unit": "km",
+    "source": "S8"
+   },
+   {
+    "label": "Dams dropped from the June plan (Jangheung, Boseonggang), 100 000 t/d each",
+    "value": "200 000",
+    "unit": "t/d",
+    "source": "S8"
+   },
+   {
+    "label": "Target year for 650 000 t/d capacity",
+    "value": "2030",
+    "unit": "year",
+    "source": "S8"
+   },
+   {
+    "label": "Interim supply target, end-2028 (Gwangju city)",
+    "value": "150 000",
+    "unit": "t/d",
+    "source": "S7"
+   },
+   {
+    "label": "Long-run supply target (Gwangju city)",
+    "value": "1 060 000",
+    "unit": "t/d",
+    "source": "S7"
+   },
+   {
+    "label": "Share of original dam allocation from the Seomjin basin (550 000 t/d)",
+    "value": "84.6",
+    "unit": "%",
+    "source": "S9"
+   },
+   {
+    "label": "Juam Dam storage ratio, 2022 drought low",
+    "value": "26.2",
+    "unit": "%",
+    "source": "S9"
+   },
+   {
+    "label": "Jangheung Dam 2022 inflow vs. 5-year mean",
+    "value": "−72.2",
+    "unit": "%",
+    "source": "S9"
+   },
+   {
+    "label": "Seomjingang Dam storage ratio, 28 Aug 2026",
+    "value": "13.6",
+    "unit": "%",
+    "source": "S9"
+   },
+   {
+    "label": "Additional yield sought by raising Dongbok Dam",
+    "value": "250 000",
+    "unit": "t/d",
+    "source": "S9"
+   },
+   {
+    "label": "UPW total organic carbon requirement",
+    "value": "≤1",
+    "unit": "ppb",
+    "source": "S8"
+   },
+   {
+    "label": "UPW consumed per wafer (approx.)",
+    "value": "≈7",
+    "unit": "t",
+    "source": "S10"
+   },
+   {
+    "label": "Indicative water need per fab (Jeonnam vice-governor)",
+    "value": "≈200 000",
+    "unit": "t/d",
+    "source": "S16"
+   }
+  ],
+  "assessment": "mixed",
+  "disputes": [
+   "Drought resilience: a NARS fact-check cited by Rep. Koo Ja-keun (People Power Party, PPP) says the volumes' calculation basis was not disclosed and that dependence on one basin is a drought risk (S9).",
+   "Minister Kim Sung-hwan and Rep. Shin Jeong-hoon (Democratic Party, DP) argue Yeongsan and Seomjin water has mostly gone to agriculture and that supply is adequate (S11).",
+   "Whether reclaimed wastewater can feed UPW production at scale is unresolved; the ministry currently limits it to cooling (S8).",
+   "National (650 000 t/d by 2030) and city (1.06 Mt/d long-run) targets differ; the relationship between them is not explained in the sources (S7, S8)."
+  ],
+  "matrix": {
+   "advantage": "Three existing dams plus reclaimed water close to the site; preliminary feasibility study waived (S7, S8).",
+   "constraint": "No dedicated industrial-water line to Gwangju today; pipelines and Dongbok raising still to be built (S10, S7).",
+   "uncertainty": "Drought yield of Seomjin-basin dams; UPW feedstock quality (S9, S8)."
+  },
+  "features": [
+   {
+    "type": "point",
+    "name": "Dongbok Dam (동복댐)",
+    "coords": [
+     127.10137,
+     35.08152
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "300 000 t/d (stage 1)",
+    "note": "Dam structure, OSM way 547893199. Allocation per S8."
+   },
+   {
+    "type": "point",
+    "name": "Juam Lake (주암호), Juam Dam reservoir",
+    "coords": [
+     127.24997,
+     35.03194
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "50 000 t/d (stage 1)",
+    "note": "Reservoir centroid, OSM way 37220829. Allocation per S8."
+   },
+   {
+    "type": "point",
+    "name": "Naju Lake (나주호), Naju Dam reservoir",
+    "coords": [
+     126.85738,
+     34.94149
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "100 000 t/d (stage 2)",
+    "note": "Reservoir centroid, OSM relation 20288329. Allocation per S8."
+   },
+   {
+    "type": "point",
+    "name": "Gwangju Environment Corp. wastewater plant (probable No. 1 sewage plant)",
+    "coords": [
+     126.83126,
+     35.15425
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "200 000 t/d reclaimed (stage 2)",
+    "note": "OSM way 674174170. S8 places the No. 1 plant ≈3 km from the site; identification with this OSM feature is inferred."
+   },
+   {
+    "type": "point",
+    "name": "Boseonggang Dam (보성강댐) — dropped Aug 2026",
+    "coords": [
+     127.14537,
+     34.80592
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "was 100 000 t/d",
+    "note": "OSM way 537741924; removed from plan per S8."
+   },
+   {
+    "type": "point",
+    "name": "Jangheung Dam (장흥댐) — dropped Aug 2026",
+    "coords": [
+     126.88394,
+     34.75353
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "was 100 000 t/d",
+    "note": "Position of the dam's water-culture museum (OSM node 4716621227), next to the dam; removed from plan per S8."
+   },
+   {
+    "type": "point",
+    "name": "Yongyeon water treatment plant (용연정수장)",
+    "coords": [
+     126.9584,
+     35.09229
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "Cited as nearby supply (S10)",
+    "note": "Position of the OSM bus stop named after the plant (node 9352302526)."
+   }
+  ]
+ },
+ {
+  "id": "F2",
+  "title": "Electric power",
+  "summary": "The fabs need 6.3 GW at full build-out; one projection rises from 1.57 GW in 2031 to 6.28 GW in 2034 (S11, S13). Generation is nearby: the Hanbit nuclear plant (한빛원전) in Yeonggwang (영광) has 5 875 MW installed, and the minister says 3–5 GW of Honam power is currently exported to the capital region or curtailed (S14, S11). The binding constraint is transmission. In the October 2026 audit, the government said the stage-1 supply line target had moved from end-2029 to 2028, using a new branch of about 32 km off the Hanbit–Sin-Gwangju (신광주) 345 kV line (S11). KEPCO describes stage 1 as 20–25 km of 345 kV line costing ₩1.4 trillion, over 80 % paid by Samsung and SK hynix, while another report gives about 43 km for the full build (S12, S13). The opposition questions renewables' peak contribution (solar 14.3 %, wind 2.4 % under the 11th Basic Plan) and the schedule, given KEPCO's own ~9-year standard construction period for 345 kV works (S11, S12).",
+  "figures": [
+   {
+    "label": "Power required at full build-out (government)",
+    "value": "6.3",
+    "unit": "GW",
+    "source": "S11"
+   },
+   {
+    "label": "Projected demand, 2031",
+    "value": "1.57",
+    "unit": "GW",
+    "source": "S13"
+   },
+   {
+    "label": "Projected demand, 2034",
+    "value": "6.28",
+    "unit": "GW",
+    "source": "S13"
+   },
+   {
+    "label": "Stage-1 supply by end-2028 (Gwangju city)",
+    "value": "3.1",
+    "unit": "GW",
+    "source": "S7"
+   },
+   {
+    "label": "Stage-1 supply via Sin-Jangseong and existing grid (ministry/KEPCO plan, July)",
+    "value": "≈4",
+    "unit": "GW",
+    "source": "S13"
+   },
+   {
+    "label": "Stage-1 transmission cost (KEPCO)",
+    "value": "1.4",
+    "unit": "₩ trillion",
+    "source": "S12"
+   },
+   {
+    "label": "Share of stage-1 cost borne by Samsung and SK hynix",
+    "value": ">80",
+    "unit": "%",
+    "source": "S12"
+   },
+   {
+    "label": "Stage-1 345 kV line length (KEPCO)",
+    "value": "20–25",
+    "unit": "km",
+    "source": "S12"
+   },
+   {
+    "label": "New branch off Hanbit–Sin-Gwangju line (minister)",
+    "value": "≈32",
+    "unit": "km",
+    "source": "S11"
+   },
+   {
+    "label": "Total new 345 kV line, staged (July plan)",
+    "value": "≈43",
+    "unit": "km",
+    "source": "S13"
+   },
+   {
+    "label": "Transmission line groundbreaking (city target)",
+    "value": "June 2027",
+    "unit": "date",
+    "source": "S7"
+   },
+   {
+    "label": "Sin-Jangseong substation: transformer banks",
+    "value": "3 × 500",
+    "unit": "MVA",
+    "source": "S13"
+   },
+   {
+    "label": "Sin-Jangseong substation completion target",
+    "value": "Sept 2027",
+    "unit": "date",
+    "source": "S13"
+   },
+   {
+    "label": "Sin-Jangseong substation handling capacity",
+    "value": "3",
+    "unit": "GW",
+    "source": "S10"
+   },
+   {
+    "label": "Hanbit NPP installed capacity",
+    "value": "5 875",
+    "unit": "MW",
+    "source": "S14"
+   },
+   {
+    "label": "Hanbit annual generation (as cited by Rep. Lee Jong-bae)",
+    "value": "45 000",
+    "unit": "GWh",
+    "source": "S11"
+   },
+   {
+    "label": "Cluster annual energy need (as cited by Rep. Lee Jong-bae)",
+    "value": "52 430",
+    "unit": "GWh",
+    "source": "S11"
+   },
+   {
+    "label": "Peak contribution of solar (11th Basic Plan, as cited)",
+    "value": "14.3",
+    "unit": "%",
+    "source": "S11"
+   },
+   {
+    "label": "Peak contribution of wind (11th Basic Plan, as cited)",
+    "value": "2.4",
+    "unit": "%",
+    "source": "S11"
+   },
+   {
+    "label": "Honam power currently sent to capital region (minister)",
+    "value": "3–5",
+    "unit": "GW",
+    "source": "S11"
+   },
+   {
+    "label": "KEPCO standard construction period, 345 kV facilities",
+    "value": "≈9",
+    "unit": "years",
+    "source": "S12"
+   },
+   {
+    "label": "Mean build time of 10 recent 345 kV underground projects",
+    "value": "4 y 8 mo",
+    "unit": "duration",
+    "source": "S11"
+   },
+   {
+    "label": "Honam 345 kV lines short of headroom by ~2030 (of 13)",
+    "value": "12",
+    "unit": "lines",
+    "source": "S10"
+   },
+   {
+    "label": "Indicative power need per fab (Jeonnam vice-governor)",
+    "value": "≈1",
+    "unit": "GW",
+    "source": "S16"
+   }
+  ],
+  "assessment": "mixed",
+  "disputes": [
+   "Peak-hour reliability: Rep. Lee Jong-bae (PPP) argued that solar and wind together deliver under 1 GW at peak; Minister Kim Sung-hwan and Rep. Shin Jeong-hoon (DP) cite surplus Honam generation now exported north (S11).",
+   "Schedule: Rep. Kim Do-eup (PPP) cited KEPCO's ~9-year standard period; KEPCO CEO Kim Dong-cheol said completion in 2–3 years is possible (S12).",
+   "Redundancy: Rep. Jeong Jin-wook (DP) called for a duplicated supply; KEPCO said its grid has few single-path links (S12). Experts call for triple redundancy (S13).",
+   "Reported line lengths (20–25 km, ≈32 km, ≈43 km) and stage-1 capacities (3.1 GW vs ≈4 GW) differ between sources; the route and design were described as at a 'basic review stage' (S11, S12, S13, S7).",
+   "Hanbit units 1–2 reached design life (unit 1 stopped; unit 2 to stop Sept 2026) and units 3–6 retire from 2034 unless extended (S10)."
+  ],
+  "matrix": {
+   "advantage": "Large nuclear and renewable output near the site, now partly exported or curtailed (S11, S14).",
+   "constraint": "New 345 kV line and substation needed; 2028 target is tight against historical build times (S11, S12).",
+   "uncertainty": "Peak-hour firm capacity; Hanbit unit retirements; final route and length (S10, S11)."
+  },
+  "features": [
+   {
+    "type": "point",
+    "name": "Hanbit Nuclear Power Plant (한빛원전), Yeonggwang",
+    "coords": [
+     126.42389,
+     35.415
+    ],
+    "precision": "exact",
+    "source": "S14",
+    "value": "5 875 MW installed",
+    "note": "Coordinates from the Wikipedia article (S14)."
+   },
+   {
+    "type": "point",
+    "name": "Sin-Gwangju 345 kV substation (신광주변전소)",
+    "coords": [
+     126.9342,
+     35.20856
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "345 kV",
+    "note": "OSM way 310226151."
+   },
+   {
+    "type": "line",
+    "name": "Hanbit → Sin-Gwangju 345 kV line (existing; proposed branch point)",
+    "coords": [
+     [
+      126.41306,
+      35.40671
+     ],
+     [
+      126.41968,
+      35.40162
+     ],
+     [
+      126.42671,
+      35.39143
+     ],
+     [
+      126.43787,
+      35.3864
+     ],
+     [
+      126.44764,
+      35.38306
+     ],
+     [
+      126.45952,
+      35.37948
+     ],
+     [
+      126.46926,
+      35.37655
+     ],
+     [
+      126.47878,
+      35.37505
+     ],
+     [
+      126.48899,
+      35.37179
+     ],
+     [
+      126.49652,
+      35.36576
+     ],
+     [
+      126.50656,
+      35.36058
+     ],
+     [
+      126.51738,
+      35.35828
+     ],
+     [
+      126.53041,
+      35.35555
+     ],
+     [
+      126.54204,
+      35.35196
+     ],
+     [
+      126.55264,
+      35.34775
+     ],
+     [
+      126.56484,
+      35.34659
+     ],
+     [
+      126.57623,
+      35.34581
+     ],
+     [
+      126.58315,
+      35.33798
+     ],
+     [
+      126.58801,
+      35.33202
+     ],
+     [
+      126.59582,
+      35.32604
+     ],
+     [
+      126.60499,
+      35.31995
+     ],
+     [
+      126.61355,
+      35.31208
+     ],
+     [
+      126.62039,
+      35.30501
+     ],
+     [
+      126.62934,
+      35.29688
+     ],
+     [
+      126.63954,
+      35.29083
+     ],
+     [
+      126.65566,
+      35.28997
+     ],
+     [
+      126.66979,
+      35.29029
+     ],
+     [
+      126.67906,
+      35.28857
+     ],
+     [
+      126.69261,
+      35.28319
+     ],
+     [
+      126.7036,
+      35.27628
+     ],
+     [
+      126.71622,
+      35.27158
+     ],
+     [
+      126.72665,
+      35.26893
+     ],
+     [
+      126.73705,
+      35.26692
+     ],
+     [
+      126.74943,
+      35.26346
+     ],
+     [
+      126.76138,
+      35.26079
+     ],
+     [
+      126.77342,
+      35.26044
+     ],
+     [
+      126.78672,
+      35.26305
+     ],
+     [
+      126.79827,
+      35.26339
+     ],
+     [
+      126.81027,
+      35.26016
+     ],
+     [
+      126.82026,
+      35.25737
+     ],
+     [
+      126.8321,
+      35.25456
+     ],
+     [
+      126.84278,
+      35.25202
+     ],
+     [
+      126.855,
+      35.24909
+     ],
+     [
+      126.86542,
+      35.24657
+     ],
+     [
+      126.87568,
+      35.24416
+     ],
+     [
+      126.88398,
+      35.2449
+     ],
+     [
+      126.89438,
+      35.24581
+     ],
+     [
+      126.90359,
+      35.24244
+     ],
+     [
+      126.91341,
+      35.23883
+     ],
+     [
+      126.92373,
+      35.23236
+     ],
+     [
+      126.92915,
+      35.22545
+     ],
+     [
+      126.93438,
+      35.21849
+     ],
+     [
+      126.93427,
+      35.2097
+     ]
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "55.8 km as mapped",
+    "note": "OSM way 143990773. S11: a ≈32 km branch off this line to the site is proposed; branch route not published."
+   },
+   {
+    "type": "line",
+    "name": "Other mapped 345 kV line (Hanbit–north)",
+    "coords": [
+     [
+      126.42436,
+      35.40588
+     ],
+     [
+      126.44056,
+      35.3951
+     ],
+     [
+      126.4477,
+      35.39124
+     ],
+     [
+      126.45833,
+      35.39181
+     ],
+     [
+      126.47045,
+      35.39393
+     ],
+     [
+      126.47969,
+      35.39981
+     ],
+     [
+      126.4933,
+      35.40565
+     ],
+     [
+      126.51088,
+      35.41004
+     ],
+     [
+      126.52335,
+      35.41525
+     ],
+     [
+      126.53658,
+      35.42435
+     ],
+     [
+      126.54682,
+      35.43375
+     ],
+     [
+      126.56123,
+      35.43704
+     ],
+     [
+      126.58085,
+      35.44157
+     ],
+     [
+      126.60107,
+      35.44622
+     ],
+     [
+      126.61636,
+      35.44907
+     ],
+     [
+      126.63364,
+      35.45168
+     ],
+     [
+      126.6458,
+      35.45315
+     ],
+     [
+      126.66081,
+      35.45563
+     ],
+     [
+      126.67554,
+      35.45913
+     ],
+     [
+      126.69106,
+      35.4615
+     ],
+     [
+      126.71109,
+      35.46264
+     ],
+     [
+      126.72852,
+      35.46791
+     ],
+     [
+      126.74491,
+      35.47499
+     ],
+     [
+      126.75343,
+      35.48769
+     ],
+     [
+      126.76512,
+      35.50376
+     ],
+     [
+      126.77226,
+      35.51594
+     ],
+     [
+      126.77762,
+      35.52599
+     ],
+     [
+      126.77938,
+      35.53849
+     ],
+     [
+      126.78131,
+      35.55188
+     ],
+     [
+      126.78558,
+      35.56371
+     ],
+     [
+      126.79845,
+      35.58008
+     ],
+     [
+      126.80876,
+      35.59215
+     ],
+     [
+      126.8163,
+      35.60609
+     ],
+     [
+      126.82132,
+      35.61627
+     ],
+     [
+      126.83017,
+      35.62706
+     ],
+     [
+      126.83903,
+      35.63806
+     ],
+     [
+      126.8515,
+      35.64729
+     ],
+     [
+      126.86551,
+      35.65375
+     ],
+     [
+      126.8817,
+      35.65683
+     ],
+     [
+      126.90163,
+      35.66028
+     ],
+     [
+      126.91419,
+      35.67022
+     ],
+     [
+      126.92717,
+      35.67888
+     ],
+     [
+      126.93954,
+      35.68498
+     ],
+     [
+      126.95312,
+      35.69017
+     ],
+     [
+      126.967,
+      35.69804
+     ],
+     [
+      126.98371,
+      35.70253
+     ],
+     [
+      126.99627,
+      35.70713
+     ],
+     [
+      127.00942,
+      35.71212
+     ],
+     [
+      127.02445,
+      35.71832
+     ],
+     [
+      127.03371,
+      35.72997
+     ],
+     [
+      127.02948,
+      35.73898
+     ]
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "345 kV",
+    "note": "OSM way 249758138."
+   },
+   {
+    "type": "line",
+    "name": "Other mapped 345 kV line (Sin-Gwangju–east)",
+    "coords": [
+     [
+      126.93469,
+      35.20951
+     ],
+     [
+      126.93598,
+      35.22093
+     ],
+     [
+      126.9425,
+      35.23504
+     ],
+     [
+      126.95054,
+      35.24542
+     ],
+     [
+      126.96402,
+      35.25402
+     ],
+     [
+      126.97893,
+      35.26344
+     ],
+     [
+      126.99088,
+      35.27058
+     ],
+     [
+      127.00244,
+      35.27777
+     ],
+     [
+      127.0221,
+      35.28278
+     ],
+     [
+      127.03789,
+      35.28725
+     ],
+     [
+      127.0494,
+      35.29284
+     ],
+     [
+      127.06342,
+      35.3006
+     ],
+     [
+      127.07832,
+      35.30236
+     ],
+     [
+      127.09414,
+      35.3134
+     ],
+     [
+      127.10826,
+      35.32334
+     ],
+     [
+      127.12815,
+      35.32883
+     ],
+     [
+      127.14261,
+      35.33326
+     ],
+     [
+      127.16207,
+      35.33981
+     ],
+     [
+      127.18314,
+      35.34698
+     ],
+     [
+      127.20675,
+      35.35222
+     ],
+     [
+      127.22996,
+      35.35998
+     ],
+     [
+      127.24766,
+      35.36238
+     ],
+     [
+      127.26498,
+      35.36393
+     ],
+     [
+      127.28046,
+      35.36643
+     ],
+     [
+      127.29544,
+      35.36593
+     ],
+     [
+      127.30865,
+      35.36413
+     ],
+     [
+      127.32584,
+      35.35912
+     ],
+     [
+      127.33847,
+      35.36127
+     ],
+     [
+      127.35399,
+      35.36424
+     ],
+     [
+      127.3716,
+      35.3681
+     ],
+     [
+      127.38972,
+      35.37382
+     ],
+     [
+      127.39733,
+      35.38218
+     ],
+     [
+      127.40728,
+      35.39291
+     ],
+     [
+      127.41659,
+      35.39917
+     ],
+     [
+      127.42764,
+      35.40785
+     ],
+     [
+      127.43962,
+      35.41667
+     ],
+     [
+      127.45072,
+      35.42484
+     ],
+     [
+      127.45611,
+      35.43355
+     ],
+     [
+      127.46273,
+      35.4436
+     ],
+     [
+      127.46794,
+      35.45006
+     ]
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "345 kV",
+    "note": "OSM way 310226144."
+   },
+   {
+    "type": "line",
+    "name": "Other mapped 345 kV line (Sin-Gwangju–south)",
+    "coords": [
+     [
+      126.93518,
+      35.20926
+     ],
+     [
+      126.94169,
+      35.21584
+     ],
+     [
+      126.9499,
+      35.22139
+     ],
+     [
+      126.95864,
+      35.21621
+     ],
+     [
+      126.96991,
+      35.21531
+     ],
+     [
+      126.97988,
+      35.21351
+     ],
+     [
+      126.98832,
+      35.21164
+     ],
+     [
+      126.99722,
+      35.21127
+     ],
+     [
+      127.00756,
+      35.20997
+     ],
+     [
+      127.01661,
+      35.20904
+     ],
+     [
+      127.02438,
+      35.20451
+     ],
+     [
+      127.0339,
+      35.19901
+     ],
+     [
+      127.04155,
+      35.19449
+     ],
+     [
+      127.05706,
+      35.1854
+     ],
+     [
+      127.06095,
+      35.17551
+     ],
+     [
+      127.06168,
+      35.16562
+     ],
+     [
+      127.06089,
+      35.15757
+     ],
+     [
+      127.05708,
+      35.14885
+     ],
+     [
+      127.05211,
+      35.13742
+     ],
+     [
+      127.05106,
+      35.12345
+     ],
+     [
+      127.05103,
+      35.11339
+     ],
+     [
+      127.04644,
+      35.10365
+     ],
+     [
+      127.04692,
+      35.09482
+     ],
+     [
+      127.04755,
+      35.08419
+     ],
+     [
+      127.04342,
+      35.07402
+     ],
+     [
+      127.03868,
+      35.06382
+     ],
+     [
+      127.03182,
+      35.05912
+     ],
+     [
+      127.02311,
+      35.05078
+     ],
+     [
+      127.01599,
+      35.04148
+     ],
+     [
+      127.00893,
+      35.03319
+     ],
+     [
+      127.00409,
+      35.02622
+     ],
+     [
+      126.99806,
+      35.01371
+     ],
+     [
+      126.99345,
+      35.0041
+     ],
+     [
+      126.99004,
+      34.99601
+     ],
+     [
+      126.98511,
+      34.98541
+     ],
+     [
+      126.97664,
+      34.97869
+     ],
+     [
+      126.96842,
+      34.97397
+     ],
+     [
+      126.95841,
+      34.96945
+     ],
+     [
+      126.95211,
+      34.96491
+     ]
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "345 kV",
+    "note": "OSM way 310226152."
+   },
+   {
+    "type": "line",
+    "name": "Other mapped 345 kV line (Jangseong–east)",
+    "coords": [
+     [
+      126.70936,
+      35.39837
+     ],
+     [
+      126.72196,
+      35.40063
+     ],
+     [
+      126.73981,
+      35.40385
+     ],
+     [
+      126.75375,
+      35.40149
+     ],
+     [
+      126.76617,
+      35.3993
+     ],
+     [
+      126.78075,
+      35.39686
+     ],
+     [
+      126.79683,
+      35.39338
+     ],
+     [
+      126.81425,
+      35.39642
+     ],
+     [
+      126.82985,
+      35.39535
+     ],
+     [
+      126.84392,
+      35.38822
+     ],
+     [
+      126.85988,
+      35.38419
+     ],
+     [
+      126.87502,
+      35.38756
+     ],
+     [
+      126.88877,
+      35.39247
+     ],
+     [
+      126.89821,
+      35.40172
+     ],
+     [
+      126.90661,
+      35.41386
+     ],
+     [
+      126.92064,
+      35.41953
+     ],
+     [
+      126.93738,
+      35.42514
+     ],
+     [
+      126.95725,
+      35.42907
+     ],
+     [
+      126.96821,
+      35.43635
+     ],
+     [
+      126.98521,
+      35.43698
+     ],
+     [
+      127.00219,
+      35.43498
+     ],
+     [
+      127.01917,
+      35.42909
+     ],
+     [
+      127.03552,
+      35.43064
+     ],
+     [
+      127.05397,
+      35.42726
+     ],
+     [
+      127.06845,
+      35.43438
+     ],
+     [
+      127.07779,
+      35.43641
+     ],
+     [
+      127.08222,
+      35.44463
+     ],
+     [
+      127.09027,
+      35.45511
+     ],
+     [
+      127.10115,
+      35.46813
+     ],
+     [
+      127.11593,
+      35.48021
+     ],
+     [
+      127.13201,
+      35.48424
+     ],
+     [
+      127.14275,
+      35.49419
+     ],
+     [
+      127.15693,
+      35.50256
+     ],
+     [
+      127.17266,
+      35.50204
+     ],
+     [
+      127.18864,
+      35.50151
+     ],
+     [
+      127.19843,
+      35.4951
+     ],
+     [
+      127.21077,
+      35.48762
+     ],
+     [
+      127.23032,
+      35.48982
+     ],
+     [
+      127.24886,
+      35.49745
+     ],
+     [
+      127.26826,
+      35.49314
+     ],
+     [
+      127.28907,
+      35.49156
+     ],
+     [
+      127.31255,
+      35.49063
+     ],
+     [
+      127.33258,
+      35.48341
+     ]
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "345 kV",
+    "note": "OSM way 143991306."
+   },
+   {
+    "type": "point",
+    "name": "Sin-Jangseong substation (신장성변전소), under construction",
+    "coords": [
+     126.78476,
+     35.30178
+    ],
+    "precision": "approximate",
+    "source": "S41",
+    "value": "3 × 500 MVA, target Sept 2027",
+    "note": "Exact site not published; marker placed at the Jangseong County coordinate from Wikipedia. Specs per S13."
+   },
+   {
+    "type": "line",
+    "name": "Proposed supply link (schematic only, route not published)",
+    "coords": [
+     [
+      126.78476,
+      35.30178
+     ],
+     [
+      126.8024,
+      35.1217
+     ]
+    ],
+    "precision": "approximate",
+    "source": "S13",
+    "value": "stage 1 via Sin-Jangseong",
+    "note": "Straight schematic connector between the approximate substation marker and the site; not a route."
+   }
+  ]
+ },
+ {
+  "id": "F3",
+  "title": "Land and site",
+  "summary": "On 6 July 2026 the government chose the Gwangju military airport (광주 군공항) in Gwangsan-gu (광산구): about 2.5 million pyeong, or 8.26 km² (1 pyeong = 400/121 m²). The land is state-owned, flat and next to Gwangju Songjeong (광주송정) KTX station (S3). On 29 July the Ministry of Land, Infrastructure and Transport (MOLIT) designated it a candidate national industrial complex and said it may expand it (S5). The 8.26 km² comprises the airfield (1.85 M pyeong; 6.12 km²), a reserved ammunition-depot relocation site (0.24 M pyeong) and a safety zone (0.39 M pyeong). The OSM outline of the airbase measures 6.01 km², consistent with the airfield component (S4, S40). Gwangju plans to develop about 630 000 pyeong (2.08 km²) first. No land price or appraisal has been published; under current law, the old site funds the new base through a donation-for-concession (기부 대 양여) swap that is now being amended (S7, S21). Other candidates were smaller (Cheomdan 3-jigu (첨단3지구), 3.62 km²), largely greenbelt (Bitgreen (빛그린), Future Car), on reclaimed land (Solaseado (솔라시도)) or companion complexes (Naju Energy, Muan) (S10, S15, S16, S36, S38).",
+  "figures": [
+   {
+    "label": "Site area (candidate national industrial complex)",
+    "value": "2.5",
+    "unit": "million pyeong",
+    "source": "S3"
+   },
+   {
+    "label": "Site area converted (2 500 000 × 400/121 m²)",
+    "value": "8.26",
+    "unit": "km²",
+    "source": "S5"
+   },
+   {
+    "label": "Airfield component",
+    "value": "1.85 (6.12 km²)",
+    "unit": "million pyeong",
+    "source": "S4"
+   },
+   {
+    "label": "Ammunition-depot relocation site",
+    "value": "0.24 (0.79 km²)",
+    "unit": "million pyeong",
+    "source": "S4"
+   },
+   {
+    "label": "Safety zone",
+    "value": "0.39 (1.29 km²)",
+    "unit": "million pyeong",
+    "source": "S4"
+   },
+   {
+    "label": "Area of airbase perimeter as mapped in OSM (computed)",
+    "value": "6.01",
+    "unit": "km²",
+    "source": "S40"
+   },
+   {
+    "label": "First-phase development area",
+    "value": "630 000 (2.08 km²)",
+    "unit": "pyeong",
+    "source": "S7"
+   },
+   {
+    "label": "Indicative land per fab (Jeonnam vice-governor)",
+    "value": "≈200 000 (0.66 km²)",
+    "unit": "pyeong",
+    "source": "S16"
+   },
+   {
+    "label": "Land-transaction permit zone duration (from 14 Jul 2026)",
+    "value": "2",
+    "unit": "years",
+    "source": "S22"
+   },
+   {
+    "label": "Land price / appraisal of the site",
+    "value": "not publicly reported",
+    "unit": "—",
+    "source": "S21"
+   },
+   {
+    "label": "Muan support funding expected from donation-for-concession surplus",
+    "value": "0.64",
+    "unit": "₩ trillion",
+    "source": "S21"
+   },
+   {
+    "label": "Candidate: Cheomdan 3-jigu (Buk-gu/Jangseong)",
+    "value": "3.62",
+    "unit": "km²",
+    "source": "S16"
+   },
+   {
+    "label": "Candidate: Future Car complex (Oun-dong)",
+    "value": "3.38",
+    "unit": "km²",
+    "source": "S10"
+   },
+   {
+    "label": "Candidate: Bitgreen complex (Samgeo-dong)",
+    "value": "4.07",
+    "unit": "km²",
+    "source": "S10"
+   },
+   {
+    "label": "Bitgreen/Future Car share under greenbelt",
+    "value": "95.6",
+    "unit": "%",
+    "source": "S10"
+   },
+   {
+    "label": "Candidate: Solaseado parcel (Haenam/Yeongam)",
+    "value": "3.96",
+    "unit": "km²",
+    "source": "S10"
+   },
+   {
+    "label": "Solaseado enterprise city total",
+    "value": "20.9",
+    "unit": "km²",
+    "source": "S15"
+   },
+   {
+    "label": "Solaseado share reclaimed land",
+    "value": ">88",
+    "unit": "%",
+    "source": "S10"
+   },
+   {
+    "label": "Solaseado ground-reinforcement cost",
+    "value": "≥0.26",
+    "unit": "₩ trillion",
+    "source": "S10"
+   },
+   {
+    "label": "Naju Energy National Industrial Complex (approved 2025)",
+    "value": "1.22",
+    "unit": "km²",
+    "source": "S36"
+   },
+   {
+    "label": "Muan national industrial complex candidate (25 Aug 2026)",
+    "value": "3.47",
+    "unit": "km²",
+    "source": "S38"
+   }
+  ],
+  "assessment": "advantage",
+  "disputes": [
+   "Expansion beyond four fabs is under review (S5); scale and boundary of any extension are not published.",
+   "Full use requires both the military base and the civilian airport to leave; greenbelt, flight-safety and military protection zones must be lifted (S4).",
+   "No single official list naming all seven candidates was located; five were named in press comparisons (S10, S15) and two (Naju, Muan) are separate national-complex projects (S36, S38).",
+   "Reported areas differ slightly (8.2 km², 8.26 km², 820 vs 826 ×10⁴ m²) (S4, S5, S24)."
+  ],
+  "matrix": {
+   "advantage": "Large, flat, state-owned site with no private compensation, next to KTX (S3, S4).",
+   "constraint": "Military and civil aviation must leave first; zoning restrictions (S4, S10).",
+   "uncertainty": "Expansion boundary; land-value basis for relocation funding (S5, S21)."
+  },
+  "features": [
+   {
+    "type": "polygon",
+    "name": "Gwangju Air Base (1st Fighter Wing) perimeter — selected site core",
+    "coords": [
+     [
+      [
+       126.80802,
+       35.13903
+      ],
+      [
+       126.80883,
+       35.13852
+      ],
+      [
+       126.80864,
+       35.13823
+      ],
+      [
+       126.81108,
+       35.13689
+      ],
+      [
+       126.81333,
+       35.1398
+      ],
+      [
+       126.81591,
+       35.1431
+      ],
+      [
+       126.81599,
+       35.14315
+      ],
+      [
+       126.8161,
+       35.14319
+      ],
+      [
+       126.81624,
+       35.14321
+      ],
+      [
+       126.8194,
+       35.14276
+      ],
+      [
+       126.82338,
+       35.14207
+      ],
+      [
+       126.82177,
+       35.13995
+      ],
+      [
+       126.82012,
+       35.13786
+      ],
+      [
+       126.82004,
+       35.13774
+      ],
+      [
+       126.82003,
+       35.13765
+      ],
+      [
+       126.8202,
+       35.13645
+      ],
+      [
+       126.82021,
+       35.13629
+      ],
+      [
+       126.82016,
+       35.13615
+      ],
+      [
+       126.8201,
+       35.13604
+      ],
+      [
+       126.82,
+       35.13591
+      ],
+      [
+       126.81776,
+       35.1339
+      ],
+      [
+       126.81752,
+       35.13364
+      ],
+      [
+       126.81722,
+       35.13324
+      ],
+      [
+       126.81698,
+       35.13283
+      ],
+      [
+       126.81691,
+       35.1326
+      ],
+      [
+       126.81681,
+       35.13225
+      ],
+      [
+       126.81673,
+       35.13186
+      ],
+      [
+       126.81672,
+       35.13138
+      ],
+      [
+       126.8168,
+       35.13076
+      ],
+      [
+       126.81697,
+       35.13027
+      ],
+      [
+       126.81762,
+       35.12897
+      ],
+      [
+       126.8154,
+       35.12584
+      ],
+      [
+       126.81343,
+       35.12484
+      ],
+      [
+       126.81301,
+       35.12464
+      ],
+      [
+       126.81282,
+       35.12509
+      ],
+      [
+       126.81269,
+       35.12526
+      ],
+      [
+       126.81263,
+       35.12534
+      ],
+      [
+       126.81256,
+       35.1254
+      ],
+      [
+       126.81248,
+       35.12542
+      ],
+      [
+       126.8124,
+       35.12541
+      ],
+      [
+       126.8123,
+       35.12538
+      ],
+      [
+       126.81221,
+       35.12528
+      ],
+      [
+       126.81091,
+       35.12257
+      ],
+      [
+       126.81091,
+       35.12248
+      ],
+      [
+       126.81081,
+       35.12213
+      ],
+      [
+       126.81065,
+       35.12189
+      ],
+      [
+       126.80705,
+       35.11707
+      ],
+      [
+       126.8078,
+       35.11668
+      ],
+      [
+       126.80781,
+       35.11663
+      ],
+      [
+       126.80803,
+       35.11661
+      ],
+      [
+       126.80828,
+       35.11642
+      ],
+      [
+       126.80799,
+       35.11621
+      ],
+      [
+       126.80775,
+       35.11579
+      ],
+      [
+       126.80729,
+       35.11597
+      ],
+      [
+       126.80586,
+       35.11413
+      ],
+      [
+       126.80543,
+       35.11388
+      ],
+      [
+       126.80519,
+       35.11352
+      ],
+      [
+       126.80523,
+       35.11339
+      ],
+      [
+       126.8043,
+       35.11228
+      ],
+      [
+       126.80505,
+       35.10988
+      ],
+      [
+       126.80504,
+       35.10978
+      ],
+      [
+       126.80417,
+       35.10956
+      ],
+      [
+       126.80399,
+       35.10948
+      ],
+      [
+       126.80404,
+       35.10926
+      ],
+      [
+       126.8054,
+       35.10625
+      ],
+      [
+       126.80396,
+       35.10529
+      ],
+      [
+       126.80363,
+       35.10512
+      ],
+      [
+       126.80311,
+       35.10494
+      ],
+      [
+       126.80264,
+       35.10483
+      ],
+      [
+       126.80213,
+       35.10475
+      ],
+      [
+       126.80169,
+       35.10473
+      ],
+      [
+       126.80112,
+       35.10475
+      ],
+      [
+       126.80081,
+       35.1048
+      ],
+      [
+       126.80055,
+       35.10485
+      ],
+      [
+       126.80024,
+       35.10495
+      ],
+      [
+       126.7999,
+       35.10509
+      ],
+      [
+       126.79959,
+       35.10526
+      ],
+      [
+       126.79914,
+       35.10553
+      ],
+      [
+       126.79873,
+       35.10583
+      ],
+      [
+       126.79823,
+       35.10624
+      ],
+      [
+       126.79771,
+       35.10661
+      ],
+      [
+       126.79677,
+       35.10745
+      ],
+      [
+       126.79653,
+       35.10763
+      ],
+      [
+       126.79627,
+       35.10783
+      ],
+      [
+       126.79601,
+       35.10802
+      ],
+      [
+       126.7957,
+       35.10824
+      ],
+      [
+       126.79538,
+       35.10846
+      ],
+      [
+       126.79504,
+       35.10868
+      ],
+      [
+       126.79406,
+       35.10929
+      ],
+      [
+       126.79317,
+       35.10986
+      ],
+      [
+       126.79257,
+       35.11022
+      ],
+      [
+       126.79089,
+       35.11133
+      ],
+      [
+       126.7889,
+       35.11258
+      ],
+      [
+       126.78853,
+       35.11291
+      ],
+      [
+       126.78828,
+       35.11316
+      ],
+      [
+       126.78805,
+       35.11347
+      ],
+      [
+       126.78785,
+       35.11381
+      ],
+      [
+       126.78765,
+       35.11427
+      ],
+      [
+       126.7875,
+       35.1147
+      ],
+      [
+       126.78742,
+       35.11522
+      ],
+      [
+       126.78741,
+       35.11549
+      ],
+      [
+       126.78741,
+       35.11572
+      ],
+      [
+       126.78754,
+       35.11627
+      ],
+      [
+       126.78761,
+       35.11659
+      ],
+      [
+       126.78848,
+       35.11909
+      ],
+      [
+       126.78854,
+       35.11935
+      ],
+      [
+       126.78858,
+       35.11973
+      ],
+      [
+       126.7886,
+       35.12002
+      ],
+      [
+       126.78857,
+       35.12028
+      ],
+      [
+       126.78853,
+       35.12055
+      ],
+      [
+       126.78844,
+       35.1209
+      ],
+      [
+       126.78832,
+       35.12123
+      ],
+      [
+       126.7882,
+       35.12152
+      ],
+      [
+       126.78805,
+       35.12174
+      ],
+      [
+       126.78788,
+       35.12202
+      ],
+      [
+       126.78766,
+       35.12228
+      ],
+      [
+       126.78744,
+       35.12253
+      ],
+      [
+       126.78719,
+       35.12275
+      ],
+      [
+       126.786,
+       35.12376
+      ],
+      [
+       126.7866,
+       35.12437
+      ],
+      [
+       126.78694,
+       35.12464
+      ],
+      [
+       126.78733,
+       35.12491
+      ],
+      [
+       126.78744,
+       35.12498
+      ],
+      [
+       126.78837,
+       35.12594
+      ],
+      [
+       126.78873,
+       35.12577
+      ],
+      [
+       126.78909,
+       35.12627
+      ],
+      [
+       126.79228,
+       35.12473
+      ],
+      [
+       126.79214,
+       35.12464
+      ],
+      [
+       126.79212,
+       35.12456
+      ],
+      [
+       126.79215,
+       35.12447
+      ],
+      [
+       126.7922,
+       35.12436
+      ],
+      [
+       126.7922,
+       35.12426
+      ],
+      [
+       126.79218,
+       35.12417
+      ],
+      [
+       126.79382,
+       35.12337
+      ],
+      [
+       126.80248,
+       35.13488
+      ],
+      [
+       126.80254,
+       35.13485
+      ],
+      [
+       126.80282,
+       35.13526
+      ],
+      [
+       126.80326,
+       35.13526
+      ],
+      [
+       126.80431,
+       35.13477
+      ],
+      [
+       126.80461,
+       35.13459
+      ],
+      [
+       126.80468,
+       35.13468
+      ],
+      [
+       126.80473,
+       35.13472
+      ],
+      [
+       126.80802,
+       35.13903
+      ]
+     ]
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "6.01 km² as mapped (OSM way 444717696)",
+    "note": "Area computed from the OSM outline; the designated 8.26 km² candidate complex also includes the ammunition-depot relocation site and safety zone (S4), whose boundaries are not published."
+   },
+   {
+    "type": "polygon",
+    "name": "1st Fighter Wing off-base ammunition depot (Mareuk-dong area)",
+    "coords": [
+     [
+      [
+       126.84406,
+       35.13743
+      ],
+      [
+       126.84246,
+       35.13752
+      ],
+      [
+       126.84211,
+       35.13754
+      ],
+      [
+       126.8396,
+       35.13766
+      ],
+      [
+       126.83954,
+       35.13767
+      ],
+      [
+       126.83951,
+       35.13765
+      ],
+      [
+       126.83948,
+       35.13764
+      ],
+      [
+       126.83947,
+       35.13759
+      ],
+      [
+       126.83937,
+       35.13682
+      ],
+      [
+       126.83935,
+       35.13652
+      ],
+      [
+       126.83935,
+       35.13638
+      ],
+      [
+       126.83937,
+       35.1363
+      ],
+      [
+       126.83941,
+       35.13619
+      ],
+      [
+       126.83978,
+       35.13583
+      ],
+      [
+       126.83987,
+       35.13562
+      ],
+      [
+       126.83938,
+       35.13468
+      ],
+      [
+       126.8406,
+       35.13426
+      ],
+      [
+       126.84056,
+       35.13415
+      ],
+      [
+       126.84027,
+       35.13331
+      ],
+      [
+       126.8402,
+       35.13303
+      ],
+      [
+       126.8401,
+       35.13249
+      ],
+      [
+       126.84009,
+       35.13224
+      ],
+      [
+       126.84008,
+       35.1321
+      ],
+      [
+       126.84011,
+       35.132
+      ],
+      [
+       126.84016,
+       35.13188
+      ],
+      [
+       126.84023,
+       35.13176
+      ],
+      [
+       126.8403,
+       35.13169
+      ],
+      [
+       126.84036,
+       35.13164
+      ],
+      [
+       126.84045,
+       35.1316
+      ],
+      [
+       126.84057,
+       35.13157
+      ],
+      [
+       126.84075,
+       35.13155
+      ],
+      [
+       126.84109,
+       35.13153
+      ],
+      [
+       126.8413,
+       35.13147
+      ],
+      [
+       126.84145,
+       35.13139
+      ],
+      [
+       126.84162,
+       35.13127
+      ],
+      [
+       126.84188,
+       35.131
+      ],
+      [
+       126.84205,
+       35.13079
+      ],
+      [
+       126.84223,
+       35.13047
+      ],
+      [
+       126.84229,
+       35.13038
+      ],
+      [
+       126.8424,
+       35.13032
+      ],
+      [
+       126.84252,
+       35.13028
+      ],
+      [
+       126.84292,
+       35.13024
+      ],
+      [
+       126.84313,
+       35.13023
+      ],
+      [
+       126.84333,
+       35.13024
+      ],
+      [
+       126.84352,
+       35.13026
+      ],
+      [
+       126.84366,
+       35.13028
+      ],
+      [
+       126.84375,
+       35.13031
+      ],
+      [
+       126.84388,
+       35.13036
+      ],
+      [
+       126.84402,
+       35.13045
+      ],
+      [
+       126.84432,
+       35.13076
+      ],
+      [
+       126.8446,
+       35.13111
+      ],
+      [
+       126.84488,
+       35.13149
+      ],
+      [
+       126.84498,
+       35.13165
+      ],
+      [
+       126.84505,
+       35.13184
+      ],
+      [
+       126.84509,
+       35.1321
+      ],
+      [
+       126.84512,
+       35.13257
+      ],
+      [
+       126.84514,
+       35.13277
+      ],
+      [
+       126.84516,
+       35.13283
+      ],
+      [
+       126.84515,
+       35.13287
+      ],
+      [
+       126.84508,
+       35.13289
+      ],
+      [
+       126.84427,
+       35.13295
+      ],
+      [
+       126.84414,
+       35.13316
+      ],
+      [
+       126.84448,
+       35.13443
+      ],
+      [
+       126.84404,
+       35.1354
+      ],
+      [
+       126.84395,
+       35.13591
+      ],
+      [
+       126.84394,
+       35.13627
+      ],
+      [
+       126.84404,
+       35.13718
+      ],
+      [
+       126.84406,
+       35.13743
+      ]
+     ]
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "0.30 km² as mapped",
+    "note": "OSM way 897551033 (영외탄약고). Relocation of this depot is linked to the 0.24 M-pyeong reserved site (S4)."
+   },
+   {
+    "type": "point",
+    "name": "Candidate: Cheomdan 3-jigu (첨단3지구)",
+    "coords": [
+     126.82234,
+     35.23615
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "3.62 km²",
+    "note": "OSM way 904423889 (construction area)."
+   },
+   {
+    "type": "point",
+    "name": "Candidate: Bitgreen National Industrial Complex (빛그린)",
+    "coords": [
+     126.67448,
+     35.15885
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "4.07 km²",
+    "note": "Placed at Samgeo-dong (삼거동), the location named in S15; OSM node 415166307."
+   },
+   {
+    "type": "point",
+    "name": "Candidate: Future Car National Industrial Complex (미래차)",
+    "coords": [
+     126.69243,
+     35.15111
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "3.38 km²",
+    "note": "Placed at Oun-dong (오운동), the location named in S15; OSM node 415166258."
+   },
+   {
+    "type": "point",
+    "name": "Candidate: Yeongam–Haenam Solaseado (솔라시도)",
+    "coords": [
+     126.43727,
+     34.65532
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "3.96 km² parcel",
+    "note": "Placed at Sani-myeon (산이면), Haenam, named in S15; OSM node 415165134."
+   },
+   {
+    "type": "point",
+    "name": "Candidate: Naju Energy National Industrial Complex (나주 에너지 국가산단)",
+    "coords": [
+     126.67459,
+     34.96094
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "1.22 km²",
+    "note": "Placed at Wanggok-myeon (왕곡면), Naju, named in S36; OSM node 415146083."
+   },
+   {
+    "type": "point",
+    "name": "Candidate: Muan national industrial complex (무안 국가산단)",
+    "coords": [
+     126.40164,
+     35.04068
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "3.47 km²",
+    "note": "Centroid of Hyeongyeong-myeon (현경면), named in S38; OSM relation 18416276."
+   }
+  ]
+ },
+ {
+  "id": "F4",
+  "title": "Military airport relocation",
+  "summary": "The selected land is still an active airbase (1st Fighter Wing) shared with domestic civil flights (S4). Two tracks run in parallel. First, a temporary dispersal: by mid-2028 the Ministry of National Defense (MND) plans to move the wing's training squadrons to Yecheon (예천) and its 206th squadron to Seosan (서산), under review, making room by moving some Yecheon assets to Jungwon (중원, Chungju). Construction is expected from 2027 (S17). Second, permanent relocation: Mangun-myeon (망운면), Muan (무안), was named preliminary candidate on 2 April 2026 and relocation candidate on 28 August 2026, with the county head's conditional consent. A resident referendum (about 77 000 voters) was expected around October 2026, and the government aims to fix the final site in 2026 and finish the new base by December 2032 (S19, S18, S20). As of 13 October 2026 no referendum result had been reported in the sources reviewed. Civil domestic flights are to move to Muan International Airport, which has been closed since the December 2024 Jeju Air crash and needs runway repairs until the second half of 2027 (S25).",
+  "figures": [
+   {
+    "label": "Deadline for temporary dispersal of base functions",
+    "value": "mid-2028",
+    "unit": "date",
+    "source": "S17"
+   },
+   {
+    "label": "Temporary host bases",
+    "value": "3 (Yecheon, Jungwon, Seosan)",
+    "unit": "bases",
+    "source": "S17"
+   },
+   {
+    "label": "Start of temporary-facility construction (MND)",
+    "value": "2027",
+    "unit": "year",
+    "source": "S17"
+   },
+   {
+    "label": "Preliminary relocation candidate named (Mangun-myeon)",
+    "value": "2 Apr 2026",
+    "unit": "date",
+    "source": "S19"
+   },
+   {
+    "label": "Relocation candidate selected",
+    "value": "28 Aug 2026",
+    "unit": "date",
+    "source": "S18"
+   },
+   {
+    "label": "Expected eligible referendum voters, Muan",
+    "value": "≈77 000",
+    "unit": "persons",
+    "source": "S20"
+   },
+   {
+    "label": "Target for final relocation site decision",
+    "value": "2026",
+    "unit": "year",
+    "source": "S18"
+   },
+   {
+    "label": "Target completion of new base, Muan",
+    "value": "Dec 2032",
+    "unit": "date",
+    "source": "S18"
+   },
+   {
+    "label": "Support package for Muan",
+    "value": "1 + α",
+    "unit": "₩ trillion",
+    "source": "S18"
+   },
+   {
+    "label": "Gwangju's formal relocation request",
+    "value": "Oct 2014",
+    "unit": "date",
+    "source": "S4"
+   },
+   {
+    "label": "Estimated new-base build time even if accelerated",
+    "value": "6–7",
+    "unit": "years",
+    "source": "S4"
+   },
+   {
+    "label": "Civil domestic flights to move to Muan by",
+    "value": "end-2027",
+    "unit": "date",
+    "source": "S25"
+   },
+   {
+    "label": "Muan runway repair completion target",
+    "value": "H2 2027",
+    "unit": "date",
+    "source": "S25"
+   },
+   {
+    "label": "Straight-line distance, site to Mangun-myeon centroid (computed)",
+    "value": "41.7",
+    "unit": "km",
+    "source": "S40"
+   }
+  ],
+  "assessment": "constraint",
+  "disputes": [
+   "Duplicate investment: critics note that temporary bases would be used for about four years before a second move to Muan (S17).",
+   "Muan county set three preconditions (civil airport first, ₩1 trillion support guaranteed, national incentives) and boycotted two committee meetings; a residents' committee demanded the support be written down before the vote (S18, S20).",
+   "Current law (donation-for-concession) does not allow the old site to be developed before the move; an amendment for early transfer and state funding was under discussion in the regular session (S21).",
+   "Rep. Kim Do-eup (PPP) said the feasibility-waiver application presented the relocation as decided when it was not (S33)."
+  ],
+  "matrix": {
+   "advantage": "Relocation process already at candidate stage, with temporary dispersal as a bridge (S17, S18).",
+   "constraint": "Fab construction depends on vacating an active airbase; law change pending (S4, S21).",
+   "uncertainty": "Muan referendum outcome and timing; pilot-training disruption (S17, S20)."
+  },
+  "features": [
+   {
+    "type": "point",
+    "name": "Mangun-myeon (망운면), Muan — relocation candidate",
+    "coords": [
+     126.36653,
+     35.00549
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "Selected 28 Aug 2026 (S18)",
+    "note": "Centroid of the myeon boundary (OSM relation 18416295); the airbase footprint within it is not published."
+   },
+   {
+    "type": "point",
+    "name": "Muan International Airport (무안국제공항)",
+    "coords": [
+     126.3828,
+     34.9914
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "Closed since 29 Dec 2024; reopening after H2 2027 repairs (S25)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Yecheon Air Base (16th FW) — temporary host",
+    "coords": [
+     128.355,
+     36.63194
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "Training squadrons 189 & 216 (S17)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Seosan Air Base (20th FW) — temporary host",
+    "coords": [
+     126.48737,
+     36.70592
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "206th squadron, under review (S17)",
+    "note": "OSM way 339787083 (centroid)."
+   },
+   {
+    "type": "point",
+    "name": "Jungwon Air Base (19th FW), Chungju — temporary host",
+    "coords": [
+     127.8855,
+     37.0301
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "Receives assets displaced from Yecheon (S17)",
+    "note": "OSM node 1042056519."
+   },
+   {
+    "type": "line",
+    "name": "Dispersal: site → Yecheon (schematic)",
+    "coords": [
+     [
+      126.8024,
+      35.1217
+     ],
+     [
+      128.355,
+      36.63194
+     ]
+    ],
+    "precision": "approximate",
+    "source": "S17",
+    "value": "by mid-2028",
+    "note": "Straight schematic line, not a flight path."
+   },
+   {
+    "type": "line",
+    "name": "Dispersal: site → Seosan (schematic)",
+    "coords": [
+     [
+      126.8024,
+      35.1217
+     ],
+     [
+      126.48737,
+      36.70592
+     ]
+    ],
+    "precision": "approximate",
+    "source": "S17",
+    "value": "by mid-2028",
+    "note": "Straight schematic line, not a flight path."
+   },
+   {
+    "type": "line",
+    "name": "Permanent relocation: site → Mangun-myeon (schematic)",
+    "coords": [
+     [
+      126.8024,
+      35.1217
+     ],
+     [
+      126.36653,
+      35.00549
+     ]
+    ],
+    "precision": "approximate",
+    "source": "S18",
+    "value": "target Dec 2032",
+    "note": "Straight schematic line."
+   }
+  ]
+ },
+ {
+  "id": "F5",
+  "title": "Terrain, geology and hazards",
+  "summary": "An analysis of the Korea Meteorological Administration catalogue since 1978, centred on the Gwangju airport reference point, counts 22 earthquakes of M ≥ 2.0 within 50 km, the largest M 3.2 (2013), and none of M ≥ 4.0. Within 100 km the largest was the M 4.8 Buan (부안) earthquake of 2024 (S22). A Chonnam National University geologist said no active faults are known in Gwangju–Jeonnam, but the integrated city has no plan for site-specific seismic verification. Critics note that fabs need site investigations of bedrock, liquefaction, ground amplification and micro-vibration (S22). The site is flat, but the aircraft operations still on it are incompatible with vibration-sensitive lithography, which is why early relocation is a precondition (S10). Flooding is the clearer hazard: on 7–8 August 2020, 516 mm of rain overtopped the Yeongsan basin in Gwangju (2 dead, 1 missing, 915 houses flooded). The Gwangju Research Institute lists Usan-dong (우산동), Songjeong Station, Suwan-dong (수완동) and Bollyang-dong (본량동), all near the site, among river-flood risk areas (S23). Site-specific groundwater and typhoon-exposure data were not publicly reported.",
+  "figures": [
+   {
+    "label": "Earthquakes M ≥ 2.0 within 20 km since 1978",
+    "value": "8",
+    "unit": "events",
+    "source": "S22"
+   },
+   {
+    "label": "Earthquakes M ≥ 2.0 within 50 km since 1978",
+    "value": "22",
+    "unit": "events",
+    "source": "S22"
+   },
+   {
+    "label": "Earthquakes M ≥ 2.0 within 100 km since 1978",
+    "value": "126",
+    "unit": "events",
+    "source": "S22"
+   },
+   {
+    "label": "Largest within 50 km (2013, Dong-gu)",
+    "value": "3.2",
+    "unit": "M",
+    "source": "S22"
+   },
+   {
+    "label": "Largest within 100 km (2024, Buan)",
+    "value": "4.8",
+    "unit": "M",
+    "source": "S22"
+   },
+   {
+    "label": "Nearest recorded event to airport reference point (M 2.6, 1984)",
+    "value": "≈10.3",
+    "unit": "km",
+    "source": "S22"
+   },
+   {
+    "label": "Rainfall, 7–8 Aug 2020",
+    "value": "516",
+    "unit": "mm",
+    "source": "S23"
+   },
+   {
+    "label": "Houses flooded, Aug 2020",
+    "value": "915",
+    "unit": "houses",
+    "source": "S23"
+   },
+   {
+    "label": "Impervious share of Gwangju's area",
+    "value": "25",
+    "unit": "%",
+    "source": "S23"
+   },
+   {
+    "label": "Site groundwater conditions",
+    "value": "not publicly reported",
+    "unit": "—",
+    "source": "S22"
+   },
+   {
+    "label": "Site-specific typhoon exposure",
+    "value": "not publicly reported",
+    "unit": "—",
+    "source": "S23"
+   }
+  ],
+  "assessment": "mixed",
+  "disputes": [
+   "Low recorded seismicity is not proof of fab safety; site-level surveys of bedrock, liquefaction and micro-vibration are called for, but none is planned by the city (S22).",
+   "The Kumamoto earthquake that halted TSMC's plant for two days prompted the comparison; experts consider Gwangju's tectonic setting different (S22).",
+   "River-flood risk areas identified by the Gwangju Research Institute adjoin the site (S23)."
+  ],
+  "matrix": {
+   "advantage": "Low recorded seismicity; no known active faults; flat, already-graded land (S22, S3).",
+   "constraint": "Adjacent river-flood risk zones; airbase vibration until vacated (S23, S10).",
+   "uncertainty": "No site-specific geotechnical, groundwater or micro-vibration data published (S22)."
+  },
+  "features": [
+   {
+    "type": "polygon",
+    "name": "20 km radius around Gwangju Airport (KMA count: 8 events M ≥ 2.0)",
+    "coords": [
+     [
+      [
+       126.8089,
+       35.3061
+      ],
+      [
+       126.828,
+       35.3054
+      ],
+      [
+       126.847,
+       35.3033
+      ],
+      [
+       126.8657,
+       35.2999
+      ],
+      [
+       126.884,
+       35.2952
+      ],
+      [
+       126.9017,
+       35.2892
+      ],
+      [
+       126.9187,
+       35.282
+      ],
+      [
+       126.9349,
+       35.2736
+      ],
+      [
+       126.9501,
+       35.264
+      ],
+      [
+       126.9642,
+       35.2534
+      ],
+      [
+       126.9772,
+       35.2419
+      ],
+      [
+       126.9888,
+       35.2294
+      ],
+      [
+       126.9991,
+       35.2162
+      ],
+      [
+       127.008,
+       35.2023
+      ],
+      [
+       127.0153,
+       35.1878
+      ],
+      [
+       127.0211,
+       35.1729
+      ],
+      [
+       127.0252,
+       35.1576
+      ],
+      [
+       127.0277,
+       35.142
+      ],
+      [
+       127.0286,
+       35.1264
+      ],
+      [
+       127.0277,
+       35.1107
+      ],
+      [
+       127.0252,
+       35.0952
+      ],
+      [
+       127.0211,
+       35.0799
+      ],
+      [
+       127.0153,
+       35.0649
+      ],
+      [
+       127.008,
+       35.0505
+      ],
+      [
+       126.9991,
+       35.0366
+      ],
+      [
+       126.9888,
+       35.0233
+      ],
+      [
+       126.9772,
+       35.0109
+      ],
+      [
+       126.9642,
+       34.9993
+      ],
+      [
+       126.9501,
+       34.9888
+      ],
+      [
+       126.9349,
+       34.9792
+      ],
+      [
+       126.9187,
+       34.9708
+      ],
+      [
+       126.9017,
+       34.9636
+      ],
+      [
+       126.884,
+       34.9576
+      ],
+      [
+       126.8657,
+       34.9528
+      ],
+      [
+       126.847,
+       34.9495
+      ],
+      [
+       126.828,
+       34.9474
+      ],
+      [
+       126.8089,
+       34.9467
+      ],
+      [
+       126.7897,
+       34.9474
+      ],
+      [
+       126.7707,
+       34.9495
+      ],
+      [
+       126.752,
+       34.9528
+      ],
+      [
+       126.7338,
+       34.9576
+      ],
+      [
+       126.7161,
+       34.9636
+      ],
+      [
+       126.6991,
+       34.9708
+      ],
+      [
+       126.6829,
+       34.9792
+      ],
+      [
+       126.6677,
+       34.9888
+      ],
+      [
+       126.6536,
+       34.9993
+      ],
+      [
+       126.6406,
+       35.0109
+      ],
+      [
+       126.6289,
+       35.0233
+      ],
+      [
+       126.6187,
+       35.0366
+      ],
+      [
+       126.6098,
+       35.0505
+      ],
+      [
+       126.6025,
+       35.0649
+      ],
+      [
+       126.5967,
+       35.0799
+      ],
+      [
+       126.5926,
+       35.0952
+      ],
+      [
+       126.5901,
+       35.1107
+      ],
+      [
+       126.5892,
+       35.1264
+      ],
+      [
+       126.5901,
+       35.142
+      ],
+      [
+       126.5926,
+       35.1576
+      ],
+      [
+       126.5967,
+       35.1729
+      ],
+      [
+       126.6025,
+       35.1878
+      ],
+      [
+       126.6098,
+       35.2023
+      ],
+      [
+       126.6187,
+       35.2162
+      ],
+      [
+       126.6289,
+       35.2294
+      ],
+      [
+       126.6406,
+       35.2419
+      ],
+      [
+       126.6536,
+       35.2534
+      ],
+      [
+       126.6677,
+       35.264
+      ],
+      [
+       126.6829,
+       35.2736
+      ],
+      [
+       126.6991,
+       35.282
+      ],
+      [
+       126.7161,
+       35.2892
+      ],
+      [
+       126.7338,
+       35.2952
+      ],
+      [
+       126.752,
+       35.2999
+      ],
+      [
+       126.7707,
+       35.3033
+      ],
+      [
+       126.7897,
+       35.3054
+      ],
+      [
+       126.8089,
+       35.3061
+      ]
+     ]
+    ],
+    "precision": "approximate",
+    "source": "S22",
+    "value": "8 events since 1978",
+    "note": "Circle centred on Wikipedia airport coordinates (S41); S22 used the aerodrome reference point."
+   },
+   {
+    "type": "polygon",
+    "name": "50 km radius around Gwangju Airport (KMA count: 22 events M ≥ 2.0)",
+    "coords": [
+     [
+      [
+       126.8089,
+       35.5755
+      ],
+      [
+       126.8568,
+       35.5738
+      ],
+      [
+       126.9043,
+       35.5687
+      ],
+      [
+       126.951,
+       35.5602
+      ],
+      [
+       126.9967,
+       35.5485
+      ],
+      [
+       127.041,
+       35.5335
+      ],
+      [
+       127.0835,
+       35.5154
+      ],
+      [
+       127.1239,
+       35.4943
+      ],
+      [
+       127.1619,
+       35.4705
+      ],
+      [
+       127.1972,
+       35.444
+      ],
+      [
+       127.2296,
+       35.4151
+      ],
+      [
+       127.2587,
+       35.384
+      ],
+      [
+       127.2845,
+       35.351
+      ],
+      [
+       127.3066,
+       35.3162
+      ],
+      [
+       127.3249,
+       35.28
+      ],
+      [
+       127.3393,
+       35.2426
+      ],
+      [
+       127.3497,
+       35.2044
+      ],
+      [
+       127.356,
+       35.1655
+      ],
+      [
+       127.3581,
+       35.1264
+      ],
+      [
+       127.356,
+       35.0872
+      ],
+      [
+       127.3497,
+       35.0484
+      ],
+      [
+       127.3393,
+       35.0101
+      ],
+      [
+       127.3249,
+       34.9728
+      ],
+      [
+       127.3066,
+       34.9366
+      ],
+      [
+       127.2845,
+       34.9018
+      ],
+      [
+       127.2587,
+       34.8688
+      ],
+      [
+       127.2296,
+       34.8377
+      ],
+      [
+       127.1972,
+       34.8088
+      ],
+      [
+       127.1619,
+       34.7823
+      ],
+      [
+       127.1239,
+       34.7585
+      ],
+      [
+       127.0835,
+       34.7374
+      ],
+      [
+       127.041,
+       34.7193
+      ],
+      [
+       126.9967,
+       34.7043
+      ],
+      [
+       126.951,
+       34.6925
+      ],
+      [
+       126.9043,
+       34.6841
+      ],
+      [
+       126.8568,
+       34.6789
+      ],
+      [
+       126.8089,
+       34.6772
+      ],
+      [
+       126.761,
+       34.6789
+      ],
+      [
+       126.7135,
+       34.6841
+      ],
+      [
+       126.6668,
+       34.6925
+      ],
+      [
+       126.6211,
+       34.7043
+      ],
+      [
+       126.5768,
+       34.7193
+      ],
+      [
+       126.5343,
+       34.7374
+      ],
+      [
+       126.4939,
+       34.7585
+      ],
+      [
+       126.4559,
+       34.7823
+      ],
+      [
+       126.4206,
+       34.8088
+      ],
+      [
+       126.3882,
+       34.8377
+      ],
+      [
+       126.359,
+       34.8688
+      ],
+      [
+       126.3333,
+       34.9018
+      ],
+      [
+       126.3112,
+       34.9366
+      ],
+      [
+       126.2928,
+       34.9728
+      ],
+      [
+       126.2784,
+       35.0101
+      ],
+      [
+       126.2681,
+       35.0484
+      ],
+      [
+       126.2618,
+       35.0872
+      ],
+      [
+       126.2597,
+       35.1264
+      ],
+      [
+       126.2618,
+       35.1655
+      ],
+      [
+       126.2681,
+       35.2044
+      ],
+      [
+       126.2784,
+       35.2426
+      ],
+      [
+       126.2928,
+       35.28
+      ],
+      [
+       126.3112,
+       35.3162
+      ],
+      [
+       126.3333,
+       35.351
+      ],
+      [
+       126.359,
+       35.384
+      ],
+      [
+       126.3882,
+       35.4151
+      ],
+      [
+       126.4206,
+       35.444
+      ],
+      [
+       126.4559,
+       35.4705
+      ],
+      [
+       126.4939,
+       35.4943
+      ],
+      [
+       126.5343,
+       35.5154
+      ],
+      [
+       126.5768,
+       35.5335
+      ],
+      [
+       126.6211,
+       35.5485
+      ],
+      [
+       126.6668,
+       35.5602
+      ],
+      [
+       126.7135,
+       35.5687
+      ],
+      [
+       126.761,
+       35.5738
+      ],
+      [
+       126.8089,
+       35.5755
+      ]
+     ]
+    ],
+    "precision": "approximate",
+    "source": "S22",
+    "value": "22 events; max M 3.2",
+    "note": "Circle centred on Wikipedia airport coordinates (S41)."
+   },
+   {
+    "type": "point",
+    "name": "Flood-risk area: Usan-dong (우산동)",
+    "coords": [
+     126.81522,
+     35.15421
+    ],
+    "precision": "approximate",
+    "source": "S23",
+    "value": "River-flood risk (Gwangju Research Institute)",
+    "note": "Admin-area centroid, OSM relation 15592392 (S40)."
+   },
+   {
+    "type": "point",
+    "name": "Flood-risk area: Suwan-dong (수완동)",
+    "coords": [
+     126.8211,
+     35.19331
+    ],
+    "precision": "approximate",
+    "source": "S23",
+    "value": "River-flood risk",
+    "note": "Admin-area centroid, OSM relation 8337092 (S40)."
+   },
+   {
+    "type": "point",
+    "name": "Flood-risk area: Bollyang-dong (본량동), Hwangnyong–Pyeongnim confluence",
+    "coords": [
+     126.72879,
+     35.1808
+    ],
+    "precision": "approximate",
+    "source": "S23",
+    "value": "River-flood risk",
+    "note": "Community-centre location, OSM node 7880197555 (S40)."
+   },
+   {
+    "type": "point",
+    "name": "Flood-risk area: Gwangju Songjeong Station surroundings",
+    "coords": [
+     126.79023,
+     35.13784
+    ],
+    "precision": "approximate",
+    "source": "S23",
+    "value": "River-flood risk",
+    "note": "Station coordinates from Wikipedia (S41)."
+   }
+  ]
+ },
+ {
+  "id": "F6",
+  "title": "Transport and logistics",
+  "summary": "The site is about 2 km from Gwangju Songjeong Station, the hub of the Honam (호남) high-speed line, with KTX-Cheongryong services to Seoul Yongsan in about 1 h 30 min and KTX-Sancheon under 2 h (S24). The Honam Expressway and the 2nd Ring Road run alongside it (S16). Straight-line distances computed from mapped coordinates are 230 km to the Yongin (용인) cluster, 184 km to Samsung's Onyang (온양) campus in the Chungcheong (충청) packaging hub, and 262 km to Incheon Airport (S40, S41). Regional ports are 58 km (Mokpo (목포) New Port) and 82 km (Gwangyang (광양) container terminal) away. Air links are in flux: Muan International Airport (41 km) has been closed since December 2024 and is due to reopen after runway repairs in the second half of 2027. Gwangju's domestic flights are to move there by end-2027, and the Honam KTX phase 2 through Muan Airport to Mokpo is targeted for December 2027 (S25, S4). Freight plans specific to semiconductors (air cargo, ports) were not publicly reported.",
+  "figures": [
+   {
+    "label": "Straight-line distance, site to Gwangju Songjeong Station (computed)",
+    "value": "2.1",
+    "unit": "km",
+    "source": "S41"
+   },
+   {
+    "label": "Yongsan–Gwangju Songjeong, KTX-Cheongryong",
+    "value": "≈1 h 30 min",
+    "unit": "duration",
+    "source": "S24"
+   },
+   {
+    "label": "Yongsan–Gwangju Songjeong, KTX-Sancheon",
+    "value": "<2 h",
+    "unit": "duration",
+    "source": "S24"
+   },
+   {
+    "label": "Straight-line distance to Yongin semiconductor cluster (computed)",
+    "value": "230",
+    "unit": "km",
+    "source": "S40"
+   },
+   {
+    "label": "Straight-line distance to Samsung Onyang campus, Chungcheong hub (computed)",
+    "value": "184",
+    "unit": "km",
+    "source": "S40"
+   },
+   {
+    "label": "Straight-line distance to Incheon International Airport (computed)",
+    "value": "262",
+    "unit": "km",
+    "source": "S41"
+   },
+   {
+    "label": "Straight-line distance to Muan International Airport (computed)",
+    "value": "41",
+    "unit": "km",
+    "source": "S41"
+   },
+   {
+    "label": "Straight-line distance to Mokpo New Port (computed)",
+    "value": "58",
+    "unit": "km",
+    "source": "S40"
+   },
+   {
+    "label": "Straight-line distance to Gwangyang container terminal (computed)",
+    "value": "82",
+    "unit": "km",
+    "source": "S40"
+   },
+   {
+    "label": "Honam KTX phase 2 (Songjeong–Muan Airport–Mokpo) completion target",
+    "value": "Dec 2027",
+    "unit": "date",
+    "source": "S4"
+   },
+   {
+    "label": "Muan International Airport closed since",
+    "value": "29 Dec 2024",
+    "unit": "date",
+    "source": "S25"
+   },
+   {
+    "label": "Semiconductor-specific freight routing plan",
+    "value": "not publicly reported",
+    "unit": "—",
+    "source": "S24"
+   }
+  ],
+  "assessment": "mixed",
+  "disputes": [
+   "The government presents proximity to KTX, expressways, airports and ports as a strength (S3); a regional daily adds that KTX via Muan Airport would allow air exports (S24), but Muan is closed until at least H2 2027 (S25).",
+   "Distance from the capital-region supplier base and Incheon air-cargo hub is not quantified in official material; the figures here are straight-line estimates, not route distances."
+  ],
+  "matrix": {
+   "advantage": "KTX station ≈2 km away; expressway access; two regional ports within ≈80 km (S24, S40).",
+   "constraint": "Regional international airport closed; ≈230 km from Yongin and ≈260 km from Incheon (S25, S40).",
+   "uncertainty": "Freight routing for wafers, chemicals and tools not published."
+  },
+  "features": [
+   {
+    "type": "point",
+    "name": "Gwangju Songjeong Station (광주송정역), KTX/SRT",
+    "coords": [
+     126.79023,
+     35.13784
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "≈1 h 30 min to Yongsan (S24)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Muan International Airport (무안국제공항)",
+    "coords": [
+     126.3828,
+     34.9914
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "Closed; reopening after H2 2027 (S25)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Mokpo New Port (목포신항)",
+    "coords": [
+     126.35256,
+     34.75644
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "58 km from site",
+    "note": "OSM way 713546730 (centroid)."
+   },
+   {
+    "type": "point",
+    "name": "Gwangyang Port container terminal (광양항)",
+    "coords": [
+     127.65389,
+     34.89603
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "82 km from site",
+    "note": "OSM way 642448562 (centroid)."
+   },
+   {
+    "type": "point",
+    "name": "Incheon International Airport",
+    "coords": [
+     126.44,
+     37.46333
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "262 km from site",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Yongin semiconductor cluster (general industrial complex)",
+    "coords": [
+     127.31903,
+     37.1523
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "230 km from site",
+    "note": "OSM way 1300761117 (centroid)."
+   },
+   {
+    "type": "point",
+    "name": "Samsung Electronics Onyang campus (Chungcheong packaging hub)",
+    "coords": [
+     127.0627,
+     36.76602
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "184 km from site",
+    "note": "OSM way 498874049 (centroid)."
+   },
+   {
+    "type": "line",
+    "name": "Straight line: site → Yongin cluster",
+    "coords": [
+     [
+      126.8024,
+      35.1217
+     ],
+     [
+      127.31903,
+      37.1523
+     ]
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "230 km",
+    "note": "Computed great-circle distance; not a road or rail route."
+   },
+   {
+    "type": "line",
+    "name": "Straight line: site → Onyang (Chungcheong hub)",
+    "coords": [
+     [
+      126.8024,
+      35.1217
+     ],
+     [
+      127.0627,
+      36.76602
+     ]
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "184 km",
+    "note": "Computed great-circle distance; not a road or rail route."
+   }
+  ]
+ },
+ {
+  "id": "F7",
+  "title": "Human capital",
+  "summary": "Talent supply is contested. Some argue Honam lies beyond a 'southern limit' for semiconductor engineers. GIST's semiconductor graduate-school dean calls this a capital-region view and says local graduates leave because good jobs are in the capital region (S26). Existing pipelines are small but growing: GIST's Samsung recruitment-linked department produces 30 graduates a year, and GIST runs design training for 210 trainees. KENTECH has about 60 students in power semiconductors. Chonnam National University (전남대) and Chosun University (조선대) are creating packaging and semiconductor programmes (S26). The government and the integrated education office target 100 000 trained people across AI, semiconductors and energy (S26). Demographics run the other way: in 2025 Gwangju lost a net 13 700 residents (−0.98 %), with people in their 20s (−3.0 %) and 30s (−1.6 %) leaving fastest. Jeonnam gained 2 000 overall but still lost people in their 20s (−3.1 %) (S27).",
+  "figures": [
+   {
+    "label": "GIST Samsung recruitment-linked semiconductor dept., output",
+    "value": "30",
+    "unit": "graduates/yr",
+    "source": "S26"
+   },
+   {
+    "label": "GIST hands-on design training, 2026 (7 tracks × 30)",
+    "value": "210",
+    "unit": "trainees",
+    "source": "S26"
+   },
+   {
+    "label": "KENTECH power-semiconductor major enrolment",
+    "value": "≈60",
+    "unit": "students",
+    "source": "S26"
+   },
+   {
+    "label": "KENTECH semiconductor process infrastructure",
+    "value": "0.05",
+    "unit": "₩ trillion",
+    "source": "S26"
+   },
+   {
+    "label": "Target trained workforce (AI, semiconductors, energy)",
+    "value": "100 000",
+    "unit": "persons",
+    "source": "S26"
+   },
+   {
+    "label": "Gwangju net migration, 2025",
+    "value": "−13 700 (−0.98 %)",
+    "unit": "persons",
+    "source": "S27"
+   },
+   {
+    "label": "Gwangju net migration rate, ages 20–29, 2025",
+    "value": "−3.0",
+    "unit": "%",
+    "source": "S27"
+   },
+   {
+    "label": "Gwangju net migration rate, ages 30–39, 2025",
+    "value": "−1.6",
+    "unit": "%",
+    "source": "S27"
+   },
+   {
+    "label": "Jeonnam net migration, 2025",
+    "value": "+2 000 (+0.07 %)",
+    "unit": "persons",
+    "source": "S27"
+   },
+   {
+    "label": "Jeonnam net migration rate, ages 20–29, 2025",
+    "value": "−3.1",
+    "unit": "%",
+    "source": "S27"
+   },
+   {
+    "label": "Mokpo net migration rate, 2025",
+    "value": "−3.4",
+    "unit": "%",
+    "source": "S27"
+   },
+   {
+    "label": "Share of Gwangju out-movers citing jobs, 2025",
+    "value": "22.4",
+    "unit": "%",
+    "source": "S27"
+   },
+   {
+    "label": "Population of the integrated special city (approx.)",
+    "value": "3.2",
+    "unit": "million",
+    "source": "S31"
+   }
+  ],
+  "assessment": "mixed",
+  "disputes": [
+   "The 'southern limit' (남방한계선) argument for talent is rebutted by GIST's Lee Min-jae, who attributes outflows to the lack of jobs (S26).",
+   "Programme targets (100 000 people) span AI, semiconductors and energy; a semiconductor-specific requirement for the four fabs was not publicly reported."
+  ],
+  "matrix": {
+   "advantage": "Research universities near the site (GIST 12 km); new contract programmes (S26).",
+   "constraint": "Young-adult net out-migration from Gwangju and Jeonnam (S27).",
+   "uncertainty": "Whether new programmes scale in time for 2030 production (S26, S7)."
+  },
+  "features": [
+   {
+    "type": "point",
+    "name": "Gwangju Institute of Science and Technology (GIST)",
+    "coords": [
+     126.84,
+     35.2265
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "30 grads/yr (Samsung contract dept.)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Chonnam National University (전남대학교)",
+    "coords": [
+     126.90806,
+     35.17639
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "Planning advanced-industry college (S26)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Chosun University (조선대학교)",
+    "coords": [
+     126.93306,
+     35.14222
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "Packaging convergence major since 2024 (S26)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Korea Institute of Energy Technology (KENTECH), Naju",
+    "coords": [
+     126.804,
+     35.011
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "≈60 power-semiconductor students (S26)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Honam University (호남대학교)",
+    "coords": [
+     126.7685,
+     35.1508
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "AI-specialised university (S26)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Dongshin University (동신대학교), Naju",
+    "coords": [
+     126.7177,
+     35.0497
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "Semiconductor school planned 2028 (S26)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Mokpo — highest net out-migration rate in Honam–Jeju, 2025",
+    "coords": [
+     126.38,
+     34.7589
+    ],
+    "precision": "approximate",
+    "source": "S27",
+    "value": "−3.4 %",
+    "note": "City coordinate from Wikipedia (S41)."
+   }
+  ]
+ },
+ {
+  "id": "F8",
+  "title": "Industrial ecosystem",
+  "summary": "Gwangju already hosts back-end capacity. Amkor Technology Korea, the city's largest exporter, announced on 30 June 2026 more than ₩1 trillion for advanced-packaging lines in Gwangju, starting with ₩0.5 trillion in October 2026, and expects over 1 000 jobs (S28). The National AI Data Center (88.5 PF; operating since October 2023) sits in Cheomdan 3-jigu, about 13 km north of the site (S29, S40). Nearby complexes (Cheomdan, Jingok (진곡), Hanam (하남), Pyeongdong (평동), Bitgreen) cover R&D, materials and equipment, and general manufacturing (S16). Front-end (fab) suppliers are not yet present; the expectation that materials, parts and equipment firms will follow the anchors is a projection, not a commitment (S1). Nationally, the 29 June plan assigns roles: Honam (southwest) as the second memory-production base (Samsung 2 fabs, SK hynix 2 fabs), Chungcheong as the packaging hub (₩81 trillion, including HBM fabs at Onyang/Cheonan and packaging at Cheongju (청주)), and the southeast and Daegu–Gyeongbuk regions as materials, parts and equipment hubs (S1, S2). Muan's new national-complex candidate is intended for semiconductor materials, parts and equipment linked to the Gwangju complex (S38).",
+  "figures": [
+   {
+    "label": "Amkor Gwangju advanced-packaging investment",
+    "value": "≥1",
+    "unit": "₩ trillion",
+    "source": "S28"
+   },
+   {
+    "label": "Amkor stage 1 (from Oct 2026)",
+    "value": "0.5",
+    "unit": "₩ trillion",
+    "source": "S28"
+   },
+   {
+    "label": "Expected new jobs from Amkor expansion",
+    "value": ">1 000",
+    "unit": "jobs",
+    "source": "S28"
+   },
+   {
+    "label": "Amkor share of global outsourced assembly and test",
+    "value": "15",
+    "unit": "%",
+    "source": "S28"
+   },
+   {
+    "label": "Amkor Technology Korea annual revenue",
+    "value": "5",
+    "unit": "₩ trillion",
+    "source": "S28"
+   },
+   {
+    "label": "National AI Data Center compute",
+    "value": "88.5",
+    "unit": "PF",
+    "source": "S29"
+   },
+   {
+    "label": "National AI Data Center storage",
+    "value": "107",
+    "unit": "PB",
+    "source": "S29"
+   },
+   {
+    "label": "Memory fabs planned in the southwest (2 Samsung + 2 SK hynix)",
+    "value": "4",
+    "unit": "fabs",
+    "source": "S1"
+   },
+   {
+    "label": "Planned southwest investment, total",
+    "value": "≈800",
+    "unit": "₩ trillion",
+    "source": "S1"
+   },
+   {
+    "label": "Planned investment per company (approx.)",
+    "value": "≈400",
+    "unit": "₩ trillion",
+    "source": "S2"
+   },
+   {
+    "label": "Chungcheong packaging-hub investment",
+    "value": "81",
+    "unit": "₩ trillion",
+    "source": "S2"
+   },
+   {
+    "label": "Samsung Yongin cluster (for comparison): 6 fabs",
+    "value": "360",
+    "unit": "₩ trillion",
+    "source": "S15"
+   },
+   {
+    "label": "Naju Energy National Industrial Complex budget (MOLIT)",
+    "value": "0.2633",
+    "unit": "₩ trillion",
+    "source": "S37"
+   }
+  ],
+  "assessment": "mixed",
+  "disputes": [
+   "The ₩800 trillion figure is an announced corporate plan rather than committed capital expenditure; Samsung's fab sequencing has historically followed market conditions (S1, S15).",
+   "Supplier relocation ('southbound train' of materials/parts/equipment firms) is an expectation voiced by local media and politicians (S1), not a commitment.",
+   "The national division of labour puts packaging in Chungcheong, while Amkor is expanding packaging in Gwangju (S2, S28)."
+  ],
+  "matrix": {
+   "advantage": "Existing OSAT anchor (Amkor) and national AI data center near the site (S28, S29).",
+   "constraint": "No front-end supplier base in Honam today; anchors ≈200 km from Yongin/Chungcheong ecosystems (S1, S40).",
+   "uncertainty": "Pace of supplier relocation; fab count beyond four (S1, S5)."
+  },
+  "features": [
+   {
+    "type": "point",
+    "name": "Amkor Technology Korea, Gwangju plant",
+    "coords": [
+     126.85463,
+     35.23229
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "≥₩1 trillion packaging expansion (S28)",
+    "note": "OSM way 565081137 (centroid)."
+   },
+   {
+    "type": "point",
+    "name": "National AI Data Center (국가AI데이터센터), Cheomdan 3-jigu",
+    "coords": [
+     126.82234,
+     35.23615
+    ],
+    "precision": "approximate",
+    "source": "S29",
+    "value": "88.5 PF, 107 PB",
+    "note": "Placed at the Cheomdan 3-jigu OSM feature (way 904423889, S40); building-level location not taken from a source."
+   },
+   {
+    "type": "point",
+    "name": "Jingok Industrial Complex (진곡산단)",
+    "coords": [
+     126.78525,
+     35.20521
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "Materials/equipment base (S16)",
+    "note": "OSM node 9877736599."
+   },
+   {
+    "type": "point",
+    "name": "Hanam Industrial Complex (하남산단) area",
+    "coords": [
+     126.81962,
+     35.20227
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "Manufacturing base (S16)",
+    "note": "Position of the metro station named after the complex (OSM node 13509361952)."
+   },
+   {
+    "type": "point",
+    "name": "Pyeongdong Industrial Complex (평동산단) area",
+    "coords": [
+     126.76567,
+     35.11873
+    ],
+    "precision": "approximate",
+    "source": "S40",
+    "value": "Manufacturing base (S16)",
+    "note": "Position of a road inside Pyeongdong 2 complex (OSM way 542194310)."
+   },
+   {
+    "type": "point",
+    "name": "Samsung Onyang campus — Chungcheong packaging hub",
+    "coords": [
+     127.0627,
+     36.76602
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "₩81 trillion hub (S2)",
+    "note": "OSM way 498874049."
+   },
+   {
+    "type": "point",
+    "name": "Cheongju — SK hynix HBM packaging (city marker)",
+    "coords": [
+     127.48333,
+     36.63333
+    ],
+    "precision": "approximate",
+    "source": "S41",
+    "value": "Part of Chungcheong hub (S2)",
+    "note": "City coordinate from Wikipedia; plant location not mapped here."
+   }
+  ]
+ },
+ {
+  "id": "F9",
+  "title": "Policy and political geography",
+  "summary": "The project is framed as balanced national development, ending the capital-region 'single pole' (S1). Three legal changes underpin it. The Semiconductor Special Act (enacted 10 February 2026; enforcement decree in force 11 August 2026) prioritises non-capital regions for cluster designation and lets the state and local governments fund 50–100 % of infrastructure, and all of it for redundancy facilities (S30). Gwangju and Jeollanam-do, separated in 1986, merged into the Jeonnam–Gwangju Integrated Special City (전남광주통합특별시) on 1 July 2026 (about 3.2 million people) (S31). The power-grid project received a preliminary-feasibility waiver on 1 September 2026 (S12). Contestation is regional and partisan. Jeonbuk (전북) groups seek distributed siting of follow-on fabs at Saemangeum (새만금). Yongin-area lawmakers warn against diverting capital-region investment (S6, S32, S35). The PPP calls the selection political and demands the evaluation criteria; the government says it proposed sites and the companies chose (S34, S33). The opposition also disputes whether firms or government picked the site (S11).",
+  "figures": [
+   {
+    "label": "Semiconductor Special Act enacted",
+    "value": "10 Feb 2026",
+    "unit": "date",
+    "source": "S30"
+   },
+   {
+    "label": "Enforcement decree in force",
+    "value": "11 Aug 2026",
+    "unit": "date",
+    "source": "S30"
+   },
+   {
+    "label": "State/local share of cluster infrastructure cost",
+    "value": "50–100",
+    "unit": "%",
+    "source": "S30"
+   },
+   {
+    "label": "Integration act passed by National Assembly",
+    "value": "1 Mar 2026",
+    "unit": "date",
+    "source": "S31"
+   },
+   {
+    "label": "Integrated special city launch",
+    "value": "1 Jul 2026",
+    "unit": "date",
+    "source": "S31"
+   },
+   {
+    "label": "Preliminary-feasibility waiver for power-supply facilities (Cabinet)",
+    "value": "1 Sep 2026",
+    "unit": "date",
+    "source": "S12"
+   },
+   {
+    "label": "Project size cited for the waiver (Rep. Kim Do-eup)",
+    "value": "6",
+    "unit": "₩ trillion",
+    "source": "S33"
+   },
+   {
+    "label": "Jeonbuk signatures for distributed siting (by 28 Jan 2026)",
+    "value": ">40 000",
+    "unit": "signatures",
+    "source": "S32"
+   },
+   {
+    "label": "Straight-line distance, site to Saemangeum (computed)",
+    "value": "79",
+    "unit": "km",
+    "source": "S41"
+   }
+  ],
+  "assessment": "mixed",
+  "disputes": [
+   "Political site selection: PPP floor leader Jeong Jeom-sik called the plan pre-campaigning in a DP stronghold and floated a national investigation; PK lawmakers demanded the selection criteria (S34).",
+   "Government position: Minister Kim Jung-kwan said the government proposed sites and the companies made the final decision; DP's Jang Cheol-min said expansion is not optional given demand (S33).",
+   "Who chose: Rep. Yoon Jae-ok (PPP) cited SK chair Chey Tae-won's July remark that the government judged Honam best (S11).",
+   "Saemangeum: Jeonbuk groups argue that, since Gwangju also needs new 345 kV lines, infrastructure gaps should not rule out Saemangeum for follow-on fabs (S6, S32).",
+   "Yongin: Rep. Yu Eui-dong (PPP) and Lee Jun-seok (Reform Party) demanded that Yongin's schedule not be diverted and that an objective site-evaluation table be published (S35)."
+  ],
+  "matrix": {
+   "advantage": "Special Act funding rules favour non-capital regions; integrated city aligns local government (S30, S31).",
+   "constraint": "Fast-tracked procedures (waivers, compressed environmental review) invite legal and political challenge (S3, S33).",
+   "uncertainty": "Durability across future administrations; claims for distributed follow-on fabs (S34, S6)."
+  },
+  "features": [
+   {
+    "type": "polygon",
+    "name": "Jeonnam–Gwangju Integrated Special City (mainland outline)",
+    "coords": [
+     [
+      [
+       126.445,
+       34.791
+      ],
+      [
+       126.449,
+       34.782
+      ],
+      [
+       126.433,
+       34.778
+      ],
+      [
+       126.425,
+       34.778
+      ],
+      [
+       126.405,
+       34.772
+      ],
+      [
+       126.398,
+       34.774
+      ],
+      [
+       126.381,
+       34.769
+      ],
+      [
+       126.38,
+       34.753
+      ],
+      [
+       126.366,
+       34.75
+      ],
+      [
+       126.361,
+       34.742
+      ],
+      [
+       126.384,
+       34.732
+      ],
+      [
+       126.388,
+       34.726
+      ],
+      [
+       126.385,
+       34.72
+      ],
+      [
+       126.376,
+       34.715
+      ],
+      [
+       126.369,
+       34.699
+      ],
+      [
+       126.355,
+       34.694
+      ],
+      [
+       126.347,
+       34.7
+      ],
+      [
+       126.35,
+       34.706
+      ],
+      [
+       126.339,
+       34.718
+      ],
+      [
+       126.331,
+       34.721
+      ],
+      [
+       126.329,
+       34.736
+      ],
+      [
+       126.32,
+       34.75
+      ],
+      [
+       126.299,
+       34.762
+      ],
+      [
+       126.289,
+       34.76
+      ],
+      [
+       126.275,
+       34.727
+      ],
+      [
+       126.279,
+       34.721
+      ],
+      [
+       126.274,
+       34.716
+      ],
+      [
+       126.272,
+       34.703
+      ],
+      [
+       126.259,
+       34.701
+      ],
+      [
+       126.26,
+       34.676
+      ],
+      [
+       126.256,
+       34.667
+      ],
+      [
+       126.263,
+       34.659
+      ],
+      [
+       126.265,
+       34.649
+      ],
+      [
+       126.261,
+       34.641
+      ],
+      [
+       126.278,
+       34.63
+      ],
+      [
+       126.294,
+       34.63
+      ],
+      [
+       126.285,
+       34.623
+      ],
+      [
+       126.281,
+       34.613
+      ],
+      [
+       126.288,
+       34.606
+      ],
+      [
+       126.28,
+       34.595
+      ],
+      [
+       126.313,
+       34.586
+      ],
+      [
+       126.306,
+       34.574
+      ],
+      [
+       126.314,
+       34.568
+      ],
+      [
+       126.328,
+       34.569
+      ],
+      [
+       126.334,
+       34.573
+      ],
+      [
+       126.361,
+       34.564
+      ],
+      [
+       126.364,
+       34.561
+      ],
+      [
+       126.38,
+       34.563
+      ],
+      [
+       126.389,
+       34.553
+      ],
+      [
+       126.385,
+       34.543
+      ],
+      [
+       126.379,
+       34.539
+      ],
+      [
+       126.39,
+       34.532
+      ],
+      [
+       126.403,
+       34.539
+      ],
+      [
+       126.4,
+       34.546
+      ],
+      [
+       126.418,
+       34.547
+      ],
+      [
+       126.42,
+       34.555
+      ],
+      [
+       126.429,
+       34.555
+      ],
+      [
+       126.436,
+       34.548
+      ],
+      [
+       126.434,
+       34.544
+      ],
+      [
+       126.456,
+       34.53
+      ],
+      [
+       126.443,
+       34.527
+      ],
+      [
+       126.443,
+       34.522
+      ],
+      [
+       126.462,
+       34.521
+      ],
+      [
+       126.471,
+       34.507
+      ],
+      [
+       126.457,
+       34.502
+      ],
+      [
+       126.46,
+       34.49
+      ],
+      [
+       126.456,
+       34.477
+      ],
+      [
+       126.463,
+       34.47
+      ],
+      [
+       126.472,
+       34.469
+      ],
+      [
+       126.468,
+       34.457
+      ],
+      [
+       126.456,
+       34.448
+      ],
+      [
+       126.466,
+       34.441
+      ],
+      [
+       126.476,
+       34.429
+      ],
+      [
+       126.485,
+       34.434
+      ],
+      [
+       126.498,
+       34.432
+      ],
+      [
+       126.507,
+       34.441
+      ],
+      [
+       126.514,
+       34.433
+      ],
+      [
+       126.508,
+       34.429
+      ],
+      [
+       126.517,
+       34.414
+      ],
+      [
+       126.505,
+       34.405
+      ],
+      [
+       126.493,
+       34.409
+      ],
+      [
+       126.489,
+       34.397
+      ],
+      [
+       126.496,
+       34.39
+      ],
+      [
+       126.484,
+       34.387
+      ],
+      [
+       126.475,
+       34.38
+      ],
+      [
+       126.483,
+       34.365
+      ],
+      [
+       126.481,
+       34.359
+      ],
+      [
+       126.499,
+       34.357
+      ],
+      [
+       126.507,
+       34.366
+      ],
+      [
+       126.518,
+       34.363
+      ],
+      [
+       126.522,
+       34.357
+      ],
+      [
+       126.522,
+       34.342
+      ],
+      [
+       126.527,
+       34.334
+      ],
+      [
+       126.521,
+       34.324
+      ],
+      [
+       126.512,
+       34.319
+      ],
+      [
+       126.519,
+       34.314
+      ],
+      [
+       126.516,
+       34.309
+      ],
+      [
+       126.517,
+       34.296
+      ],
+      [
+       126.528,
+       34.294
+      ],
+      [
+       126.529,
+       34.301
+      ],
+      [
+       126.545,
+       34.303
+      ],
+      [
+       126.552,
+       34.317
+      ],
+      [
+       126.558,
+       34.322
+      ],
+      [
+       126.588,
+       34.319
+      ],
+      [
+       126.599,
+       34.312
+      ],
+      [
+       126.604,
+       34.331
+      ],
+      [
+       126.601,
+       34.337
+      ],
+      [
+       126.603,
+       34.346
+      ],
+      [
+       126.62,
+       34.359
+      ],
+      [
+       126.618,
+       34.365
+      ],
+      [
+       126.62,
+       34.379
+      ],
+      [
+       126.611,
+       34.386
+      ],
+      [
+       126.622,
+       34.393
+      ],
+      [
+       126.621,
+       34.399
+      ],
+      [
+       126.628,
+       34.402
+      ],
+      [
+       126.635,
+       34.412
+      ],
+      [
+       126.648,
+       34.413
+      ],
+      [
+       126.664,
+       34.427
+      ],
+      [
+       126.674,
+       34.419
+      ],
+      [
+       126.688,
+       34.434
+      ],
+      [
+       126.698,
+       34.44
+      ],
+      [
+       126.707,
+       34.439
+      ],
+      [
+       126.72,
+       34.445
+      ],
+      [
+       126.725,
+       34.443
+      ],
+      [
+       126.735,
+       34.456
+      ],
+      [
+       126.749,
+       34.473
+      ],
+      [
+       126.742,
+       34.48
+      ],
+      [
+       126.74,
+       34.488
+      ],
+      [
+       126.758,
+       34.491
+      ],
+      [
+       126.761,
+       34.503
+      ],
+      [
+       126.758,
+       34.526
+      ],
+      [
+       126.764,
+       34.533
+      ],
+      [
+       126.765,
+       34.546
+      ],
+      [
+       126.768,
+       34.554
+      ],
+      [
+       126.765,
+       34.563
+      ],
+      [
+       126.769,
+       34.586
+      ],
+      [
+       126.775,
+       34.594
+      ],
+      [
+       126.772,
+       34.603
+      ],
+      [
+       126.779,
+       34.613
+      ],
+      [
+       126.782,
+       34.598
+      ],
+      [
+       126.779,
+       34.593
+      ],
+      [
+       126.79,
+       34.582
+      ],
+      [
+       126.786,
+       34.577
+      ],
+      [
+       126.793,
+       34.57
+      ],
+      [
+       126.791,
+       34.541
+      ],
+      [
+       126.792,
+       34.529
+      ],
+      [
+       126.787,
+       34.513
+      ],
+      [
+       126.792,
+       34.509
+      ],
+      [
+       126.791,
+       34.496
+      ],
+      [
+       126.798,
+       34.48
+      ],
+      [
+       126.787,
+       34.477
+      ],
+      [
+       126.786,
+       34.469
+      ],
+      [
+       126.808,
+       34.467
+      ],
+      [
+       126.805,
+       34.459
+      ],
+      [
+       126.815,
+       34.45
+      ],
+      [
+       126.83,
+       34.448
+      ],
+      [
+       126.846,
+       34.454
+      ],
+      [
+       126.856,
+       34.442
+      ],
+      [
+       126.872,
+       34.438
+      ],
+      [
+       126.882,
+       34.44
+      ],
+      [
+       126.876,
+       34.457
+      ],
+      [
+       126.889,
+       34.457
+      ],
+      [
+       126.926,
+       34.453
+      ],
+      [
+       126.929,
+       34.447
+      ],
+      [
+       126.947,
+       34.457
+      ],
+      [
+       126.941,
+       34.463
+      ],
+      [
+       126.941,
+       34.482
+      ],
+      [
+       126.946,
+       34.482
+      ],
+      [
+       126.954,
+       34.47
+      ],
+      [
+       126.962,
+       34.471
+      ],
+      [
+       126.968,
+       34.478
+      ],
+      [
+       126.978,
+       34.475
+      ],
+      [
+       126.977,
+       34.488
+      ],
+      [
+       126.964,
+       34.495
+      ],
+      [
+       126.969,
+       34.507
+      ],
+      [
+       126.977,
+       34.513
+      ],
+      [
+       126.985,
+       34.54
+      ],
+      [
+       126.989,
+       34.562
+      ],
+      [
+       126.979,
+       34.573
+      ],
+      [
+       126.994,
+       34.585
+      ],
+      [
+       126.993,
+       34.594
+      ],
+      [
+       126.999,
+       34.598
+      ],
+      [
+       127.004,
+       34.606
+      ],
+      [
+       126.994,
+       34.615
+      ],
+      [
+       126.995,
+       34.621
+      ],
+      [
+       126.984,
+       34.628
+      ],
+      [
+       127.014,
+       34.625
+      ],
+      [
+       127.028,
+       34.628
+      ],
+      [
+       127.039,
+       34.636
+      ],
+      [
+       127.046,
+       34.635
+      ],
+      [
+       127.061,
+       34.651
+      ],
+      [
+       127.067,
+       34.664
+      ],
+      [
+       127.083,
+       34.665
+      ],
+      [
+       127.095,
+       34.67
+      ],
+      [
+       127.107,
+       34.677
+      ],
+      [
+       127.114,
+       34.693
+      ],
+      [
+       127.124,
+       34.701
+      ],
+      [
+       127.135,
+       34.702
+      ],
+      [
+       127.144,
+       34.693
+      ],
+      [
+       127.178,
+       34.692
+      ],
+      [
+       127.185,
+       34.695
+      ],
+      [
+       127.19,
+       34.703
+      ],
+      [
+       127.206,
+       34.719
+      ],
+      [
+       127.211,
+       34.731
+      ],
+      [
+       127.209,
+       34.738
+      ],
+      [
+       127.229,
+       34.758
+      ],
+      [
+       127.241,
+       34.76
+      ],
+      [
+       127.252,
+       34.748
+      ],
+      [
+       127.252,
+       34.742
+      ],
+      [
+       127.26,
+       34.733
+      ],
+      [
+       127.272,
+       34.742
+      ],
+      [
+       127.295,
+       34.733
+      ],
+      [
+       127.297,
+       34.743
+      ],
+      [
+       127.304,
+       34.75
+      ],
+      [
+       127.316,
+       34.753
+      ],
+      [
+       127.327,
+       34.752
+      ],
+      [
+       127.329,
+       34.728
+      ],
+      [
+       127.333,
+       34.716
+      ],
+      [
+       127.343,
+       34.716
+      ],
+      [
+       127.345,
+       34.71
+      ],
+      [
+       127.332,
+       34.706
+      ],
+      [
+       127.33,
+       34.699
+      ],
+      [
+       127.319,
+       34.681
+      ],
+      [
+       127.32,
+       34.67
+      ],
+      [
+       127.314,
+       34.664
+      ],
+      [
+       127.3,
+       34.668
+      ],
+      [
+       127.285,
+       34.667
+      ],
+      [
+       127.277,
+       34.678
+      ],
+      [
+       127.285,
+       34.691
+      ],
+      [
+       127.285,
+       34.699
+      ],
+      [
+       127.278,
+       34.715
+      ],
+      [
+       127.268,
+       34.712
+      ],
+      [
+       127.263,
+       34.716
+      ],
+      [
+       127.253,
+       34.711
+      ],
+      [
+       127.248,
+       34.702
+      ],
+      [
+       127.24,
+       34.698
+      ],
+      [
+       127.244,
+       34.687
+      ],
+      [
+       127.241,
+       34.681
+      ],
+      [
+       127.233,
+       34.68
+      ],
+      [
+       127.228,
+       34.655
+      ],
+      [
+       127.2,
+       34.648
+      ],
+      [
+       127.19,
+       34.644
+      ],
+      [
+       127.182,
+       34.632
+      ],
+      [
+       127.172,
+       34.624
+      ],
+      [
+       127.173,
+       34.611
+      ],
+      [
+       127.168,
+       34.603
+      ],
+      [
+       127.172,
+       34.596
+      ],
+      [
+       127.166,
+       34.591
+      ],
+      [
+       127.151,
+       34.594
+      ],
+      [
+       127.143,
+       34.591
+      ],
+      [
+       127.144,
+       34.585
+      ],
+      [
+       127.135,
+       34.573
+      ],
+      [
+       127.129,
+       34.573
+      ],
+      [
+       127.114,
+       34.56
+      ],
+      [
+       127.113,
+       34.548
+      ],
+      [
+       127.122,
+       34.54
+      ],
+      [
+       127.122,
+       34.53
+      ],
+      [
+       127.143,
+       34.524
+      ],
+      [
+       127.173,
+       34.526
+      ],
+      [
+       127.178,
+       34.531
+      ],
+      [
+       127.195,
+       34.532
+      ],
+      [
+       127.208,
+       34.521
+      ],
+      [
+       127.225,
+       34.526
+      ],
+      [
+       127.244,
+       34.522
+      ],
+      [
+       127.255,
+       34.521
+      ],
+      [
+       127.259,
+       34.514
+      ],
+      [
+       127.269,
+       34.51
+      ],
+      [
+       127.284,
+       34.497
+      ],
+      [
+       127.274,
+       34.492
+      ],
+      [
+       127.269,
+       34.482
+      ],
+      [
+       127.288,
+       34.477
+      ],
+      [
+       127.301,
+       34.471
+      ],
+      [
+       127.305,
+       34.462
+      ],
+      [
+       127.304,
+       34.454
+      ],
+      [
+       127.322,
+       34.442
+      ],
+      [
+       127.338,
+       34.446
+      ],
+      [
+       127.339,
+       34.454
+      ],
+      [
+       127.321,
+       34.464
+      ],
+      [
+       127.334,
+       34.479
+      ],
+      [
+       127.344,
+       34.484
+      ],
+      [
+       127.353,
+       34.482
+      ],
+      [
+       127.354,
+       34.49
+      ],
+      [
+       127.359,
+       34.492
+      ],
+      [
+       127.367,
+       34.487
+      ],
+      [
+       127.386,
+       34.484
+      ],
+      [
+       127.391,
+       34.488
+      ],
+      [
+       127.38,
+       34.502
+      ],
+      [
+       127.388,
+       34.506
+      ],
+      [
+       127.405,
+       34.506
+      ],
+      [
+       127.406,
+       34.518
+      ],
+      [
+       127.415,
+       34.521
+      ],
+      [
+       127.425,
+       34.512
+      ],
+      [
+       127.43,
+       34.515
+      ],
+      [
+       127.423,
+       34.529
+      ],
+      [
+       127.429,
+       34.541
+      ],
+      [
+       127.439,
+       34.549
+      ],
+      [
+       127.433,
+       34.552
+      ],
+      [
+       127.421,
+       34.553
+      ],
+      [
+       127.397,
+       34.559
+      ],
+      [
+       127.396,
+       34.563
+      ],
+      [
+       127.404,
+       34.573
+      ],
+      [
+       127.394,
+       34.582
+      ],
+      [
+       127.401,
+       34.59
+      ],
+      [
+       127.415,
+       34.589
+      ],
+      [
+       127.422,
+       34.585
+      ],
+      [
+       127.434,
+       34.583
+      ],
+      [
+       127.445,
+       34.577
+      ],
+      [
+       127.457,
+       34.584
+      ],
+      [
+       127.476,
+       34.575
+      ],
+      [
+       127.486,
+       34.578
+      ],
+      [
+       127.497,
+       34.59
+      ],
+      [
+       127.506,
+       34.595
+      ],
+      [
+       127.506,
+       34.603
+      ],
+      [
+       127.497,
+       34.615
+      ],
+      [
+       127.494,
+       34.626
+      ],
+      [
+       127.496,
+       34.632
+      ],
+      [
+       127.486,
+       34.635
+      ],
+      [
+       127.474,
+       34.635
+      ],
+      [
+       127.469,
+       34.641
+      ],
+      [
+       127.477,
+       34.649
+      ],
+      [
+       127.471,
+       34.665
+      ],
+      [
+       127.465,
+       34.663
+      ],
+      [
+       127.453,
+       34.666
+      ],
+      [
+       127.447,
+       34.674
+      ],
+      [
+       127.437,
+       34.678
+      ],
+      [
+       127.432,
+       34.675
+      ],
+      [
+       127.421,
+       34.692
+      ],
+      [
+       127.403,
+       34.701
+      ],
+      [
+       127.391,
+       34.711
+      ],
+      [
+       127.389,
+       34.72
+      ],
+      [
+       127.379,
+       34.727
+      ],
+      [
+       127.379,
+       34.733
+      ],
+      [
+       127.373,
+       34.742
+      ],
+      [
+       127.38,
+       34.751
+      ],
+      [
+       127.39,
+       34.753
+      ],
+      [
+       127.4,
+       34.76
+      ],
+      [
+       127.401,
+       34.771
+      ],
+      [
+       127.386,
+       34.775
+      ],
+      [
+       127.39,
+       34.79
+      ],
+      [
+       127.395,
+       34.797
+      ],
+      [
+       127.413,
+       34.803
+      ],
+      [
+       127.419,
+       34.811
+      ],
+      [
+       127.401,
+       34.817
+      ],
+      [
+       127.392,
+       34.815
+      ],
+      [
+       127.383,
+       34.827
+      ],
+      [
+       127.367,
+       34.831
+      ],
+      [
+       127.367,
+       34.835
+      ],
+      [
+       127.384,
+       34.836
+      ],
+      [
+       127.396,
+       34.825
+      ],
+      [
+       127.418,
+       34.829
+      ],
+      [
+       127.412,
+       34.839
+      ],
+      [
+       127.417,
+       34.833
+      ],
+      [
+       127.433,
+       34.836
+      ],
+      [
+       127.447,
+       34.837
+      ],
+      [
+       127.452,
+       34.84
+      ],
+      [
+       127.473,
+       34.845
+      ],
+      [
+       127.486,
+       34.842
+      ],
+      [
+       127.491,
+       34.845
+      ],
+      [
+       127.494,
+       34.867
+      ],
+      [
+       127.493,
+       34.876
+      ],
+      [
+       127.505,
+       34.873
+      ],
+      [
+       127.516,
+       34.875
+      ],
+      [
+       127.519,
+       34.86
+      ],
+      [
+       127.526,
+       34.845
+      ],
+      [
+       127.534,
+       34.841
+      ],
+      [
+       127.543,
+       34.844
+      ],
+      [
+       127.538,
+       34.832
+      ],
+      [
+       127.527,
+       34.824
+      ],
+      [
+       127.523,
+       34.81
+      ],
+      [
+       127.544,
+       34.806
+      ],
+      [
+       127.554,
+       34.809
+      ],
+      [
+       127.561,
+       34.803
+      ],
+      [
+       127.559,
+       34.796
+      ],
+      [
+       127.565,
+       34.792
+      ],
+      [
+       127.569,
+       34.777
+      ],
+      [
+       127.579,
+       34.761
+      ],
+      [
+       127.585,
+       34.767
+      ],
+      [
+       127.59,
+       34.757
+      ],
+      [
+       127.584,
+       34.74
+      ],
+      [
+       127.578,
+       34.733
+      ],
+      [
+       127.564,
+       34.727
+      ],
+      [
+       127.555,
+       34.719
+      ],
+      [
+       127.558,
+       34.7
+      ],
+      [
+       127.551,
+       34.689
+      ],
+      [
+       127.551,
+       34.682
+      ],
+      [
+       127.564,
+       34.675
+      ],
+      [
+       127.553,
+       34.669
+      ],
+      [
+       127.559,
+       34.659
+      ],
+      [
+       127.575,
+       34.647
+      ],
+      [
+       127.59,
+       34.652
+      ],
+      [
+       127.607,
+       34.645
+      ],
+      [
+       127.615,
+       34.643
+      ],
+      [
+       127.625,
+       34.635
+      ],
+      [
+       127.633,
+       34.636
+      ],
+      [
+       127.643,
+       34.651
+      ],
+      [
+       127.631,
+       34.649
+      ],
+      [
+       127.634,
+       34.663
+      ],
+      [
+       127.628,
+       34.68
+      ],
+      [
+       127.622,
+       34.69
+      ],
+      [
+       127.625,
+       34.699
+      ],
+      [
+       127.614,
+       34.706
+      ],
+      [
+       127.626,
+       34.712
+      ],
+      [
+       127.636,
+       34.71
+      ],
+      [
+       127.642,
+       34.727
+      ],
+      [
+       127.655,
+       34.746
+      ],
+      [
+       127.658,
+       34.756
+      ],
+      [
+       127.682,
+       34.732
+      ],
+      [
+       127.684,
+       34.734
+      ],
+      [
+       127.705,
+       34.721
+      ],
+      [
+       127.709,
+       34.724
+      ],
+      [
+       127.733,
+       34.73
+      ],
+      [
+       127.738,
+       34.739
+      ],
+      [
+       127.751,
+       34.736
+      ],
+      [
+       127.757,
+       34.743
+      ],
+      [
+       127.749,
+       34.748
+      ],
+      [
+       127.754,
+       34.763
+      ],
+      [
+       127.746,
+       34.775
+      ],
+      [
+       127.747,
+       34.781
+      ],
+      [
+       127.757,
+       34.787
+      ],
+      [
+       127.755,
+       34.793
+      ],
+      [
+       127.759,
+       34.801
+      ],
+      [
+       127.768,
+       34.802
+      ],
+      [
+       127.766,
+       34.81
+      ],
+      [
+       127.77,
+       34.821
+      ],
+      [
+       127.768,
+       34.831
+      ],
+      [
+       127.775,
+       34.838
+      ],
+      [
+       127.776,
+       34.855
+      ],
+      [
+       127.773,
+       34.862
+      ],
+      [
+       127.762,
+       34.864
+      ],
+      [
+       127.752,
+       34.861
+      ],
+      [
+       127.74,
+       34.862
+      ],
+      [
+       127.736,
+       34.855
+      ],
+      [
+       127.726,
+       34.862
+      ],
+      [
+       127.72,
+       34.859
+      ],
+      [
+       127.699,
+       34.859
+      ],
+      [
+       127.695,
+       34.865
+      ],
+      [
+       127.68,
+       34.845
+      ],
+      [
+       127.67,
+       34.837
+      ],
+      [
+       127.662,
+       34.845
+      ],
+      [
+       127.643,
+       34.831
+      ],
+      [
+       127.636,
+       34.828
+      ],
+      [
+       127.627,
+       34.834
+      ],
+      [
+       127.636,
+       34.84
+      ],
+      [
+       127.625,
+       34.844
+      ],
+      [
+       127.614,
+       34.854
+      ],
+      [
+       127.606,
+       34.852
+      ],
+      [
+       127.601,
+       34.862
+      ],
+      [
+       127.59,
+       34.875
+      ],
+      [
+       127.59,
+       34.877
+      ],
+      [
+       127.612,
+       34.893
+      ],
+      [
+       127.605,
+       34.905
+      ],
+      [
+       127.591,
+       34.919
+      ],
+      [
+       127.586,
+       34.919
+      ],
+      [
+       127.579,
+       34.919
+      ],
+      [
+       127.581,
+       34.922
+      ],
+      [
+       127.599,
+       34.926
+      ],
+      [
+       127.617,
+       34.916
+      ],
+      [
+       127.624,
+       34.902
+      ],
+      [
+       127.637,
+       34.89
+      ],
+      [
+       127.639,
+       34.884
+      ],
+      [
+       127.671,
+       34.903
+      ],
+      [
+       127.663,
+       34.911
+      ],
+      [
+       127.671,
+       34.931
+      ],
+      [
+       127.681,
+       34.93
+      ],
+      [
+       127.696,
+       34.919
+      ],
+      [
+       127.703,
+       34.933
+      ],
+      [
+       127.711,
+       34.936
+      ],
+      [
+       127.718,
+       34.945
+      ],
+      [
+       127.731,
+       34.955
+      ],
+      [
+       127.752,
+       34.962
+      ],
+      [
+       127.754,
+       34.958
+      ],
+      [
+       127.74,
+       34.949
+      ],
+      [
+       127.742,
+       34.941
+      ],
+      [
+       127.748,
+       34.934
+      ],
+      [
+       127.769,
+       34.934
+      ],
+      [
+       127.768,
+       34.954
+      ],
+      [
+       127.759,
+       34.967
+      ],
+      [
+       127.764,
+       34.976
+      ],
+      [
+       127.774,
+       34.983
+      ],
+      [
+       127.781,
+       34.991
+      ],
+      [
+       127.787,
+       35.011
+      ],
+      [
+       127.785,
+       35.021
+      ],
+      [
+       127.772,
+       35.034
+      ],
+      [
+       127.768,
+       35.05
+      ],
+      [
+       127.763,
+       35.055
+      ],
+      [
+       127.752,
+       35.057
+      ],
+      [
+       127.74,
+       35.063
+      ],
+      [
+       127.733,
+       35.076
+      ],
+      [
+       127.716,
+       35.084
+      ],
+      [
+       127.707,
+       35.095
+      ],
+      [
+       127.695,
+       35.106
+      ],
+      [
+       127.694,
+       35.128
+      ],
+      [
+       127.676,
+       35.147
+      ],
+      [
+       127.659,
+       35.159
+      ],
+      [
+       127.648,
+       35.16
+      ],
+      [
+       127.638,
+       35.173
+      ],
+      [
+       127.625,
+       35.183
+      ],
+      [
+       127.618,
+       35.202
+      ],
+      [
+       127.621,
+       35.213
+      ],
+      [
+       127.619,
+       35.235
+      ],
+      [
+       127.614,
+       35.241
+      ],
+      [
+       127.61,
+       35.262
+      ],
+      [
+       127.596,
+       35.268
+      ],
+      [
+       127.584,
+       35.291
+      ],
+      [
+       127.577,
+       35.295
+      ],
+      [
+       127.578,
+       35.309
+      ],
+      [
+       127.568,
+       35.319
+      ],
+      [
+       127.555,
+       35.322
+      ],
+      [
+       127.533,
+       35.335
+      ],
+      [
+       127.527,
+       35.343
+      ],
+      [
+       127.497,
+       35.36
+      ],
+      [
+       127.486,
+       35.358
+      ],
+      [
+       127.471,
+       35.365
+      ],
+      [
+       127.454,
+       35.361
+      ],
+      [
+       127.438,
+       35.363
+      ],
+      [
+       127.421,
+       35.351
+      ],
+      [
+       127.416,
+       35.337
+      ],
+      [
+       127.406,
+       35.324
+      ],
+      [
+       127.393,
+       35.313
+      ],
+      [
+       127.393,
+       35.307
+      ],
+      [
+       127.385,
+       35.303
+      ],
+      [
+       127.377,
+       35.311
+      ],
+      [
+       127.354,
+       35.322
+      ],
+      [
+       127.346,
+       35.318
+      ],
+      [
+       127.331,
+       35.315
+      ],
+      [
+       127.324,
+       35.307
+      ],
+      [
+       127.306,
+       35.305
+      ],
+      [
+       127.291,
+       35.313
+      ],
+      [
+       127.262,
+       35.312
+      ],
+      [
+       127.253,
+       35.315
+      ],
+      [
+       127.232,
+       35.334
+      ],
+      [
+       127.221,
+       35.335
+      ],
+      [
+       127.217,
+       35.331
+      ],
+      [
+       127.213,
+       35.317
+      ],
+      [
+       127.199,
+       35.317
+      ],
+      [
+       127.188,
+       35.323
+      ],
+      [
+       127.184,
+       35.33
+      ],
+      [
+       127.187,
+       35.336
+      ],
+      [
+       127.173,
+       35.331
+      ],
+      [
+       127.168,
+       35.332
+      ],
+      [
+       127.147,
+       35.315
+      ],
+      [
+       127.144,
+       35.308
+      ],
+      [
+       127.13,
+       35.309
+      ],
+      [
+       127.117,
+       35.3
+      ],
+      [
+       127.105,
+       35.299
+      ],
+      [
+       127.097,
+       35.302
+      ],
+      [
+       127.089,
+       35.307
+      ],
+      [
+       127.061,
+       35.317
+      ],
+      [
+       127.051,
+       35.317
+      ],
+      [
+       127.043,
+       35.322
+      ],
+      [
+       127.051,
+       35.329
+      ],
+      [
+       127.052,
+       35.34
+      ],
+      [
+       127.062,
+       35.336
+      ],
+      [
+       127.07,
+       35.339
+      ],
+      [
+       127.07,
+       35.351
+      ],
+      [
+       127.065,
+       35.356
+      ],
+      [
+       127.071,
+       35.365
+      ],
+      [
+       127.064,
+       35.37
+      ],
+      [
+       127.064,
+       35.376
+      ],
+      [
+       127.055,
+       35.383
+      ],
+      [
+       127.047,
+       35.377
+      ],
+      [
+       127.031,
+       35.39
+      ],
+      [
+       127.027,
+       35.4
+      ],
+      [
+       127.042,
+       35.399
+      ],
+      [
+       127.052,
+       35.427
+      ],
+      [
+       127.045,
+       35.433
+      ],
+      [
+       127.037,
+       35.434
+      ],
+      [
+       127.035,
+       35.448
+      ],
+      [
+       127.035,
+       35.467
+      ],
+      [
+       127.024,
+       35.464
+      ],
+      [
+       127.014,
+       35.458
+      ],
+      [
+       127.003,
+       35.465
+      ],
+      [
+       126.995,
+       35.44
+      ],
+      [
+       126.985,
+       35.437
+      ],
+      [
+       126.982,
+       35.427
+      ],
+      [
+       126.971,
+       35.428
+      ],
+      [
+       126.972,
+       35.415
+      ],
+      [
+       126.977,
+       35.401
+      ],
+      [
+       126.963,
+       35.395
+      ],
+      [
+       126.954,
+       35.397
+      ],
+      [
+       126.942,
+       35.394
+      ],
+      [
+       126.933,
+       35.396
+      ],
+      [
+       126.93,
+       35.406
+      ],
+      [
+       126.92,
+       35.402
+      ],
+      [
+       126.916,
+       35.416
+      ],
+      [
+       126.902,
+       35.423
+      ],
+      [
+       126.904,
+       35.43
+      ],
+      [
+       126.898,
+       35.433
+      ],
+      [
+       126.9,
+       35.442
+      ],
+      [
+       126.897,
+       35.448
+      ],
+      [
+       126.883,
+       35.452
+      ],
+      [
+       126.869,
+       35.462
+      ],
+      [
+       126.85,
+       35.466
+      ],
+      [
+       126.843,
+       35.464
+      ],
+      [
+       126.843,
+       35.478
+      ],
+      [
+       126.831,
+       35.481
+      ],
+      [
+       126.827,
+       35.487
+      ],
+      [
+       126.814,
+       35.484
+      ],
+      [
+       126.814,
+       35.469
+      ],
+      [
+       126.792,
+       35.468
+      ],
+      [
+       126.782,
+       35.471
+      ],
+      [
+       126.773,
+       35.468
+      ],
+      [
+       126.758,
+       35.462
+      ],
+      [
+       126.75,
+       35.451
+      ],
+      [
+       126.738,
+       35.45
+      ],
+      [
+       126.744,
+       35.441
+      ],
+      [
+       126.752,
+       35.435
+      ],
+      [
+       126.752,
+       35.423
+      ],
+      [
+       126.745,
+       35.409
+      ],
+      [
+       126.728,
+       35.401
+      ],
+      [
+       126.732,
+       35.383
+      ],
+      [
+       126.731,
+       35.377
+      ],
+      [
+       126.719,
+       35.365
+      ],
+      [
+       126.705,
+       35.365
+      ],
+      [
+       126.699,
+       35.35
+      ],
+      [
+       126.692,
+       35.351
+      ],
+      [
+       126.682,
+       35.347
+      ],
+      [
+       126.666,
+       35.352
+      ],
+      [
+       126.664,
+       35.346
+      ],
+      [
+       126.652,
+       35.327
+      ],
+      [
+       126.645,
+       35.32
+      ],
+      [
+       126.63,
+       35.321
+      ],
+      [
+       126.608,
+       35.332
+      ],
+      [
+       126.583,
+       35.329
+      ],
+      [
+       126.582,
+       35.317
+      ],
+      [
+       126.589,
+       35.318
+      ],
+      [
+       126.585,
+       35.301
+      ],
+      [
+       126.573,
+       35.31
+      ],
+      [
+       126.548,
+       35.314
+      ],
+      [
+       126.532,
+       35.307
+      ],
+      [
+       126.524,
+       35.314
+      ],
+      [
+       126.521,
+       35.325
+      ],
+      [
+       126.514,
+       35.327
+      ],
+      [
+       126.52,
+       35.347
+      ],
+      [
+       126.513,
+       35.362
+      ],
+      [
+       126.503,
+       35.358
+      ],
+      [
+       126.497,
+       35.35
+      ],
+      [
+       126.497,
+       35.374
+      ],
+      [
+       126.487,
+       35.377
+      ],
+      [
+       126.481,
+       35.386
+      ],
+      [
+       126.491,
+       35.395
+      ],
+      [
+       126.493,
+       35.408
+      ],
+      [
+       126.48,
+       35.421
+      ],
+      [
+       126.476,
+       35.429
+      ],
+      [
+       126.469,
+       35.425
+      ],
+      [
+       126.45,
+       35.428
+      ],
+      [
+       126.44,
+       35.43
+      ],
+      [
+       126.418,
+       35.424
+      ],
+      [
+       126.403,
+       35.405
+      ],
+      [
+       126.402,
+       35.396
+      ],
+      [
+       126.407,
+       35.393
+      ],
+      [
+       126.407,
+       35.382
+      ],
+      [
+       126.418,
+       35.374
+      ],
+      [
+       126.422,
+       35.365
+      ],
+      [
+       126.413,
+       35.364
+      ],
+      [
+       126.397,
+       35.369
+      ],
+      [
+       126.388,
+       35.346
+      ],
+      [
+       126.379,
+       35.328
+      ],
+      [
+       126.376,
+       35.312
+      ],
+      [
+       126.378,
+       35.306
+      ],
+      [
+       126.371,
+       35.294
+      ],
+      [
+       126.361,
+       35.285
+      ],
+      [
+       126.338,
+       35.286
+      ],
+      [
+       126.329,
+       35.279
+      ],
+      [
+       126.322,
+       35.263
+      ],
+      [
+       126.326,
+       35.243
+      ],
+      [
+       126.308,
+       35.251
+      ],
+      [
+       126.301,
+       35.235
+      ],
+      [
+       126.299,
+       35.223
+      ],
+      [
+       126.3,
+       35.21
+      ],
+      [
+       126.306,
+       35.212
+      ],
+      [
+       126.317,
+       35.205
+      ],
+      [
+       126.328,
+       35.203
+      ],
+      [
+       126.337,
+       35.196
+      ],
+      [
+       126.354,
+       35.196
+      ],
+      [
+       126.354,
+       35.202
+      ],
+      [
+       126.379,
+       35.208
+      ],
+      [
+       126.369,
+       35.195
+      ],
+      [
+       126.373,
+       35.19
+      ],
+      [
+       126.356,
+       35.183
+      ],
+      [
+       126.361,
+       35.168
+      ],
+      [
+       126.37,
+       35.164
+      ],
+      [
+       126.396,
+       35.135
+      ],
+      [
+       126.404,
+       35.136
+      ],
+      [
+       126.422,
+       35.107
+      ],
+      [
+       126.437,
+       35.105
+      ],
+      [
+       126.446,
+       35.106
+      ],
+      [
+       126.465,
+       35.1
+      ],
+      [
+       126.458,
+       35.09
+      ],
+      [
+       126.438,
+       35.087
+      ],
+      [
+       126.458,
+       35.074
+      ],
+      [
+       126.452,
+       35.072
+      ],
+      [
+       126.444,
+       35.059
+      ],
+      [
+       126.423,
+       35.048
+      ],
+      [
+       126.418,
+       35.04
+      ],
+      [
+       126.427,
+       35.03
+      ],
+      [
+       126.417,
+       35.027
+      ],
+      [
+       126.403,
+       35.027
+      ],
+      [
+       126.399,
+       35.033
+      ],
+      [
+       126.401,
+       35.042
+      ],
+      [
+       126.391,
+       35.043
+      ],
+      [
+       126.409,
+       35.063
+      ],
+      [
+       126.404,
+       35.071
+      ],
+      [
+       126.396,
+       35.076
+      ],
+      [
+       126.391,
+       35.065
+      ],
+      [
+       126.385,
+       35.066
+      ],
+      [
+       126.383,
+       35.078
+      ],
+      [
+       126.372,
+       35.062
+      ],
+      [
+       126.365,
+       35.065
+      ],
+      [
+       126.368,
+       35.072
+      ],
+      [
+       126.354,
+       35.078
+      ],
+      [
+       126.345,
+       35.077
+      ],
+      [
+       126.344,
+       35.092
+      ],
+      [
+       126.331,
+       35.095
+      ],
+      [
+       126.335,
+       35.103
+      ],
+      [
+       126.33,
+       35.108
+      ],
+      [
+       126.339,
+       35.123
+      ],
+      [
+       126.345,
+       35.141
+      ],
+      [
+       126.346,
+       35.16
+      ],
+      [
+       126.334,
+       35.149
+      ],
+      [
+       126.321,
+       35.128
+      ],
+      [
+       126.308,
+       35.128
+      ],
+      [
+       126.309,
+       35.137
+      ],
+      [
+       126.292,
+       35.138
+      ],
+      [
+       126.281,
+       35.135
+      ],
+      [
+       126.274,
+       35.146
+      ],
+      [
+       126.264,
+       35.146
+      ],
+      [
+       126.253,
+       35.134
+      ],
+      [
+       126.243,
+       35.111
+      ],
+      [
+       126.26,
+       35.104
+      ],
+      [
+       126.248,
+       35.097
+      ],
+      [
+       126.236,
+       35.101
+      ],
+      [
+       126.232,
+       35.099
+      ],
+      [
+       126.217,
+       35.107
+      ],
+      [
+       126.21,
+       35.103
+      ],
+      [
+       126.19,
+       35.113
+      ],
+      [
+       126.178,
+       35.104
+      ],
+      [
+       126.172,
+       35.106
+      ],
+      [
+       126.159,
+       35.099
+      ],
+      [
+       126.157,
+       35.091
+      ],
+      [
+       126.165,
+       35.083
+      ],
+      [
+       126.16,
+       35.072
+      ],
+      [
+       126.173,
+       35.064
+      ],
+      [
+       126.18,
+       35.066
+      ],
+      [
+       126.183,
+       35.058
+      ],
+      [
+       126.199,
+       35.063
+      ],
+      [
+       126.207,
+       35.055
+      ],
+      [
+       126.223,
+       35.058
+      ],
+      [
+       126.233,
+       35.053
+      ],
+      [
+       126.235,
+       35.044
+      ],
+      [
+       126.228,
+       35.038
+      ],
+      [
+       126.233,
+       35.017
+      ],
+      [
+       126.244,
+       35.027
+      ],
+      [
+       126.248,
+       35.014
+      ],
+      [
+       126.255,
+       35.013
+      ],
+      [
+       126.266,
+       35.022
+      ],
+      [
+       126.266,
+       35.029
+      ],
+      [
+       126.274,
+       35.038
+      ],
+      [
+       126.264,
+       35.042
+      ],
+      [
+       126.262,
+       35.054
+      ],
+      [
+       126.273,
+       35.054
+      ],
+      [
+       126.286,
+       35.062
+      ],
+      [
+       126.292,
+       35.06
+      ],
+      [
+       126.294,
+       35.052
+      ],
+      [
+       126.305,
+       35.046
+      ],
+      [
+       126.315,
+       35.054
+      ],
+      [
+       126.305,
+       35.066
+      ],
+      [
+       126.316,
+       35.071
+      ],
+      [
+       126.317,
+       35.088
+      ],
+      [
+       126.334,
+       35.088
+      ],
+      [
+       126.345,
+       35.071
+      ],
+      [
+       126.338,
+       35.061
+      ],
+      [
+       126.346,
+       35.059
+      ],
+      [
+       126.352,
+       35.04
+      ],
+      [
+       126.369,
+       35.047
+      ],
+      [
+       126.382,
+       35.048
+      ],
+      [
+       126.389,
+       35.037
+      ],
+      [
+       126.39,
+       35.024
+      ],
+      [
+       126.339,
+       34.997
+      ],
+      [
+       126.352,
+       34.994
+      ],
+      [
+       126.359,
+       34.987
+      ],
+      [
+       126.351,
+       34.982
+      ],
+      [
+       126.343,
+       34.972
+      ],
+      [
+       126.327,
+       34.967
+      ],
+      [
+       126.318,
+       34.981
+      ],
+      [
+       126.305,
+       34.985
+      ],
+      [
+       126.304,
+       34.977
+      ],
+      [
+       126.298,
+       34.974
+      ],
+      [
+       126.295,
+       34.966
+      ],
+      [
+       126.308,
+       34.95
+      ],
+      [
+       126.321,
+       34.944
+      ],
+      [
+       126.315,
+       34.937
+      ],
+      [
+       126.326,
+       34.931
+      ],
+      [
+       126.33,
+       34.916
+      ],
+      [
+       126.343,
+       34.915
+      ],
+      [
+       126.353,
+       34.922
+      ],
+      [
+       126.368,
+       34.92
+      ],
+      [
+       126.366,
+       34.942
+      ],
+      [
+       126.373,
+       34.958
+      ],
+      [
+       126.359,
+       34.968
+      ],
+      [
+       126.37,
+       34.975
+      ],
+      [
+       126.366,
+       34.982
+      ],
+      [
+       126.368,
+       34.995
+      ],
+      [
+       126.381,
+       34.988
+      ],
+      [
+       126.379,
+       34.972
+      ],
+      [
+       126.391,
+       34.967
+      ],
+      [
+       126.394,
+       34.961
+      ],
+      [
+       126.388,
+       34.948
+      ],
+      [
+       126.392,
+       34.936
+      ],
+      [
+       126.391,
+       34.922
+      ],
+      [
+       126.404,
+       34.914
+      ],
+      [
+       126.403,
+       34.905
+      ],
+      [
+       126.391,
+       34.891
+      ],
+      [
+       126.392,
+       34.883
+      ],
+      [
+       126.401,
+       34.881
+      ],
+      [
+       126.396,
+       34.867
+      ],
+      [
+       126.405,
+       34.857
+      ],
+      [
+       126.406,
+       34.85
+      ],
+      [
+       126.412,
+       34.844
+      ],
+      [
+       126.401,
+       34.842
+      ],
+      [
+       126.388,
+       34.837
+      ],
+      [
+       126.387,
+       34.83
+      ],
+      [
+       126.38,
+       34.828
+      ],
+      [
+       126.363,
+       34.806
+      ],
+      [
+       126.35,
+       34.796
+      ],
+      [
+       126.361,
+       34.794
+      ],
+      [
+       126.374,
+       34.78
+      ],
+      [
+       126.402,
+       34.783
+      ],
+      [
+       126.425,
+       34.792
+      ],
+      [
+       126.441,
+       34.799
+      ],
+      [
+       126.445,
+       34.791
+      ]
+     ]
+    ],
+    "precision": "exact",
+    "source": "S39",
+    "value": "Launched 1 Jul 2026 (S31)",
+    "note": "Dissolved from KOSTAT 2018 si-gun-gu boundaries; islands omitted for display."
+   },
+   {
+    "type": "point",
+    "name": "Saemangeum (새만금), Jeonbuk — distributed-siting proposal",
+    "coords": [
+     126.62222,
+     35.81667
+    ],
+    "precision": "exact",
+    "source": "S41",
+    "value": "Follow-on fabs sought (S6, S32)",
+    "note": "Wikipedia coordinates."
+   },
+   {
+    "type": "point",
+    "name": "Yongin semiconductor cluster — capital-region base",
+    "coords": [
+     127.31903,
+     37.1523
+    ],
+    "precision": "exact",
+    "source": "S40",
+    "value": "Schedule protection demanded (S35)",
+    "note": "OSM way 1300761117."
+   },
+   {
+    "type": "point",
+    "name": "Muan national complex candidate — companion supplier complex",
+    "coords": [
+     126.40164,
+     35.04068
+    ],
+    "precision": "approximate",
+    "source": "S38",
+    "value": "3.47 km², designated 25 Aug 2026",
+    "note": "Hyeongyeong-myeon centroid, OSM relation 18416276 (S40)."
+   }
+  ]
+ }
+]

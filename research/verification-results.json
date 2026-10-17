@@ -1,0 +1,117 @@
+{
+ "console": [],
+ "pageErrors": [],
+ "failed": [],
+ "checks": {
+  "firstViewport": {
+   "headline": {
+    "top": 77,
+    "bottom": 119,
+    "inView": true
+   },
+   "verdict": {
+    "top": 53,
+    "bottom": 203,
+    "inView": true
+   },
+   "metrics": {
+    "top": 215,
+    "bottom": 310,
+    "inView": true
+   },
+   "map": {
+    "top": 352,
+    "bottom": 880,
+    "inView": true
+   },
+   "powerChart": {
+    "top": 378,
+    "bottom": 578,
+    "inView": true
+   },
+   "waterChart": {
+    "top": 667,
+    "bottom": 814,
+    "inView": true
+   },
+   "factorGrid": {
+    "top": 349,
+    "bottom": 579,
+    "inView": true
+   },
+   "criticalPath": {
+    "top": 616,
+    "bottom": 823,
+    "inView": true
+   }
+  },
+  "toggles": {
+   "base": true,
+   "F1": true,
+   "F2": true,
+   "F3": true,
+   "F4": true,
+   "F5": true,
+   "F6": true,
+   "F7": true,
+   "F8": true,
+   "F9": true
+  },
+  "headings": {
+   "F1": "ok (zoom 10, inView true)",
+   "F2": "ok (zoom 8.75, inView true)",
+   "F3": "ok (zoom 9.75, inView true)",
+   "F4": "ok (zoom 8, inView true)",
+   "F5": "ok (zoom 8.75, inView true)",
+   "F6": "ok (zoom 7.5, inView true)",
+   "F7": "ok (zoom 9.75, inView true)",
+   "F8": "ok (zoom 8.25, inView true)",
+   "F9": "ok (zoom 7.5, inView true)"
+  },
+  "popups": {
+   "F1": "ok: \"Dongbok Dam (동복댐)\" | exact, as mapped | S40",
+   "F2": "ok: \"Hanbit Nuclear Power Plant (한빛원전), Yeonggwang\" | exact, as mapped | S14",
+   "F3": "ok: \"Candidate: Cheomdan 3-jigu (첨단3지구)\" | exact, as mapped | S40",
+   "F4": "ok: \"Yecheon Air Base (16th FW) — temporary host\" | exact, as mapped | S41",
+   "F5": "ok: \"Flood-risk area: Usan-dong (우산동)\" | approximate | S23",
+   "F6": "ok: \"Gwangju Songjeong Station (광주송정역), KTX/SRT\" | exact, as mapped | S41",
+   "F7": "ok: \"Gwangju Institute of Science and Technology (GIST)\" | exact, as mapped | S41",
+   "F8": "ok: \"National AI Data Center (국가AI데이터센터), Cheomdan 3-jigu\" | approximate | S29",
+   "F9": "ok: \"Saemangeum (새만금), Jeonbuk — distributed-siting proposal\" | exact, as mapped | S41"
+  },
+  "citations": {
+   "links": 561,
+   "distinctCited": 41,
+   "references": 41,
+   "missing": [],
+   "uncited": []
+  },
+  "figures": {
+   "total": 135,
+   "missing": []
+  },
+  "overflow": {
+   "1440-light": {
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "wide": []
+   },
+   "1440-dark": {
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "wide": []
+   },
+   "375-light": {
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "wide": []
+   },
+   "375-dark": {
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "wide": []
+   }
+  }
+ },
+ "fileBytes": 844337
+}
