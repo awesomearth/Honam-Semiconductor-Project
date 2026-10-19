@@ -1,8 +1,8 @@
 # Honam Semiconductor Cluster
 
-An editorial geographic assessment of the Honam (Southwest) Semiconductor Cluster planned for the Gwangju military airport site in South Korea. It asks whether Gwangju can deliver Korea's second chip production base, covering water, power, land, the airbase relocation, labour and politics. Status as of 13 October 2026.
+An editorial geographic assessment of the Honam (Southwest) Semiconductor Cluster planned for the Gwangju military airport site in South Korea. It asks whether Gwangju can deliver Korea's second chip production base, covering water, power, land, the airbase relocation, labour and politics. Built with Claude Code. 
 
-Open `index.html` in a browser to read it. The page is self-contained apart from Google Fonts, Leaflet (cdnjs) and the Esri basemap tiles.
+Open `index.html` in a browser to read it. The page is self-contained apart from Google Fonts, Leaflet (cdnjs) and the Esri basemap tiles. Preview link: https://awesomearth.github.io/Honam-Semiconductor-Project/
 
 ## Contents
 
